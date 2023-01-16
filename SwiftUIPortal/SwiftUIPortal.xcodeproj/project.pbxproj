@@ -16,6 +16,11 @@
 		325DA0BF2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DA0BE2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift */; };
 		325DA0C12921E8CE005F2E23 /* CircularProgressBarProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DA0C02921E8CE005F2E23 /* CircularProgressBarProgressView.swift */; };
 		325DA0C32921E921005F2E23 /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DA0C22921E921005F2E23 /* CircularProgressBarView.swift */; };
+		EA9690E22975295B008AA5E7 /* PokeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E12975295B008AA5E7 /* PokeAPIService.swift */; };
+		EA9690E429752AAA008AA5E7 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E329752AAA008AA5E7 /* PokemonModel.swift */; };
+		EA9690E629752AD7008AA5E7 /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E529752AD7008AA5E7 /* PokemonView.swift */; };
+		EA9690E829752C88008AA5E7 /* PokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E729752C88008AA5E7 /* PokeRow.swift */; };
+		EA9690EA297530D6008AA5E7 /* TypeChipList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E9297530D6008AA5E7 /* TypeChipList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		325DA0BE2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarBackgroundView.swift; sourceTree = "<group>"; };
 		325DA0C02921E8CE005F2E23 /* CircularProgressBarProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarProgressView.swift; sourceTree = "<group>"; };
 		325DA0C22921E921005F2E23 /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
+		EA9690E12975295B008AA5E7 /* PokeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPIService.swift; sourceTree = "<group>"; };
+		EA9690E329752AAA008AA5E7 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		EA9690E529752AD7008AA5E7 /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
+		EA9690E729752C88008AA5E7 /* PokeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeRow.swift; sourceTree = "<group>"; };
+		EA9690E9297530D6008AA5E7 /* TypeChipList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeChipList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,7 @@
 		325DA0AF2921E770005F2E23 /* SwiftUIPortal */ = {
 			isa = PBXGroup;
 			children = (
+				EA9690E029752947008AA5E7 /* Pokemon */,
 				325DA0B02921E770005F2E23 /* SwiftUIPortalApp.swift */,
 				3254EC8B29247BAE009308B9 /* NetworkMonitor */,
 				325DA0B22921E770005F2E23 /* ContentView.swift */,
@@ -96,6 +107,18 @@
 				325DA0C22921E921005F2E23 /* CircularProgressBarView.swift */,
 			);
 			path = CircularProgressBarView;
+			sourceTree = "<group>";
+		};
+		EA9690E029752947008AA5E7 /* Pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				EA9690E12975295B008AA5E7 /* PokeAPIService.swift */,
+				EA9690E329752AAA008AA5E7 /* PokemonModel.swift */,
+				EA9690E729752C88008AA5E7 /* PokeRow.swift */,
+				EA9690E9297530D6008AA5E7 /* TypeChipList.swift */,
+				EA9690E529752AD7008AA5E7 /* PokemonView.swift */,
+			);
+			path = Pokemon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +194,15 @@
 				3254EC8F29247C58009308B9 /* DetectNetworkContentView.swift in Sources */,
 				325DA0B32921E770005F2E23 /* ContentView.swift in Sources */,
 				3254EC8D29247BDD009308B9 /* NetworkMonitor.swift in Sources */,
+				EA9690E429752AAA008AA5E7 /* PokemonModel.swift in Sources */,
+				EA9690EA297530D6008AA5E7 /* TypeChipList.swift in Sources */,
 				325DA0BF2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift in Sources */,
+				EA9690E629752AD7008AA5E7 /* PokemonView.swift in Sources */,
+				EA9690E22975295B008AA5E7 /* PokeAPIService.swift in Sources */,
 				325DA0B12921E770005F2E23 /* SwiftUIPortalApp.swift in Sources */,
 				325DA0C12921E8CE005F2E23 /* CircularProgressBarProgressView.swift in Sources */,
 				325DA0C32921E921005F2E23 /* CircularProgressBarView.swift in Sources */,
+				EA9690E829752C88008AA5E7 /* PokeRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
