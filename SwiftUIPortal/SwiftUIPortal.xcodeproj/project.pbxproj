@@ -16,6 +16,9 @@
 		325DA0BF2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DA0BE2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift */; };
 		325DA0C12921E8CE005F2E23 /* CircularProgressBarProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DA0C02921E8CE005F2E23 /* CircularProgressBarProgressView.swift */; };
 		325DA0C32921E921005F2E23 /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DA0C22921E921005F2E23 /* CircularProgressBarView.swift */; };
+		EA9690D42974ED85008AA5E7 /* RippleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690D32974ED85008AA5E7 /* RippleAnimation.swift */; };
+		EA9690D62974F17E008AA5E7 /* AWBreathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690D52974F17E008AA5E7 /* AWBreathAnimation.swift */; };
+		EA9690D82974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690D72974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift */; };
 		EA9690E22975295B008AA5E7 /* PokeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E12975295B008AA5E7 /* PokeAPIService.swift */; };
 		EA9690E429752AAA008AA5E7 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E329752AAA008AA5E7 /* PokemonModel.swift */; };
 		EA9690E629752AD7008AA5E7 /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E529752AD7008AA5E7 /* PokemonView.swift */; };
@@ -34,6 +37,9 @@
 		325DA0BE2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarBackgroundView.swift; sourceTree = "<group>"; };
 		325DA0C02921E8CE005F2E23 /* CircularProgressBarProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarProgressView.swift; sourceTree = "<group>"; };
 		325DA0C22921E921005F2E23 /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
+		EA9690D32974ED85008AA5E7 /* RippleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleAnimation.swift; sourceTree = "<group>"; };
+		EA9690D52974F17E008AA5E7 /* AWBreathAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWBreathAnimation.swift; sourceTree = "<group>"; };
+		EA9690D72974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeOpeningAnimation.swift; sourceTree = "<group>"; };
 		EA9690E12975295B008AA5E7 /* PokeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPIService.swift; sourceTree = "<group>"; };
 		EA9690E329752AAA008AA5E7 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
 		EA9690E529752AD7008AA5E7 /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
@@ -84,9 +90,12 @@
 				325DA0B02921E770005F2E23 /* SwiftUIPortalApp.swift */,
 				3254EC8B29247BAE009308B9 /* NetworkMonitor */,
 				325DA0B22921E770005F2E23 /* ContentView.swift */,
+				EA9690D72974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift */,
 				325DA0C42921E993005F2E23 /* CircularProgressBarView */,
 				325DA0B42921E772005F2E23 /* Assets.xcassets */,
 				325DA0B62921E773005F2E23 /* Preview Content */,
+				EA9690D32974ED85008AA5E7 /* RippleAnimation.swift */,
+				EA9690D52974F17E008AA5E7 /* AWBreathAnimation.swift */,
 			);
 			path = SwiftUIPortal;
 			sourceTree = "<group>";
@@ -191,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9690D42974ED85008AA5E7 /* RippleAnimation.swift in Sources */,
+				EA9690D82974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift in Sources */,
 				3254EC8F29247C58009308B9 /* DetectNetworkContentView.swift in Sources */,
 				325DA0B32921E770005F2E23 /* ContentView.swift in Sources */,
 				3254EC8D29247BDD009308B9 /* NetworkMonitor.swift in Sources */,
@@ -201,6 +212,7 @@
 				EA9690E22975295B008AA5E7 /* PokeAPIService.swift in Sources */,
 				325DA0B12921E770005F2E23 /* SwiftUIPortalApp.swift in Sources */,
 				325DA0C12921E8CE005F2E23 /* CircularProgressBarProgressView.swift in Sources */,
+				EA9690D62974F17E008AA5E7 /* AWBreathAnimation.swift in Sources */,
 				325DA0C32921E921005F2E23 /* CircularProgressBarView.swift in Sources */,
 				EA9690E829752C88008AA5E7 /* PokeRow.swift in Sources */,
 			);
