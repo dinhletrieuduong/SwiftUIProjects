@@ -8,16 +8,18 @@
 import Foundation
 import SwiftUI
 
-struct APIPokeResult: Codable {
+struct PokemonEntry: Codable, Identifiable {
+    let id = UUID()
     var name: String
     var url: String
 }
+
 
 struct Pokemons: Codable {
     var count: Int
     var next: String?
     var previous: String?
-    var results: [APIPokeResult]
+    var results: [PokemonEntry]
 }
 
 struct PokemonAndImage: Identifiable {
@@ -38,7 +40,7 @@ struct Pokemon: Codable {
     let name: String
     let order: Int
     let species: Species
-    let sprites: Sprites
+    let sprites: PokemonSprites
     let stats: [Stat]
     let types: [TypeElement]
     let weight: Int
@@ -99,7 +101,7 @@ struct VersionGroupDetail: Codable {
 
 // MARK: - GenerationV
 struct GenerationV: Codable {
-    let blackWhite: Sprites
+    let blackWhite: PokemonSprites
 
     enum CodingKeys: String, CodingKey {
         case blackWhite = "black-white"
@@ -108,7 +110,7 @@ struct GenerationV: Codable {
 
 // MARK: - GenerationIv
 struct GenerationIv: Codable {
-    let diamondPearl, heartgoldSoulsilver, platinum: Sprites
+    let diamondPearl, heartgoldSoulsilver, platinum: PokemonSprites
 
     enum CodingKeys: String, CodingKey {
         case diamondPearl = "diamond-pearl"
@@ -141,14 +143,14 @@ struct Versions: Codable {
 }
 
 // MARK: - Sprites
-class Sprites: Codable {
+class PokemonSprites: Codable {
     let backDefault: String?
     let backShiny: String?
     let frontDefault: String?
     let frontShiny: String?
     let other: Other?
     let versions: Versions?
-    let animated: Sprites?
+    let animated: PokemonSprites?
 
     enum CodingKeys: String, CodingKey {
         case backDefault = "back_default"
@@ -158,7 +160,7 @@ class Sprites: Codable {
         case other, versions, animated
     }
 
-    init(backDefault: String, backShiny: String, frontDefault: String, frontShiny: String, other: Other?, versions: Versions?, animated: Sprites?) {
+    init(backDefault: String, backShiny: String, frontDefault: String, frontShiny: String, other: Other?, versions: Versions?, animated: PokemonSprites?) {
         self.backDefault = backDefault
         self.backShiny = backShiny
         self.frontDefault = frontDefault

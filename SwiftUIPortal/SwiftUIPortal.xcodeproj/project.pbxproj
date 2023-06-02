@@ -24,6 +24,18 @@
 		EA9690E629752AD7008AA5E7 /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E529752AD7008AA5E7 /* PokemonView.swift */; };
 		EA9690E829752C88008AA5E7 /* PokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E729752C88008AA5E7 /* PokeRow.swift */; };
 		EA9690EA297530D6008AA5E7 /* TypeChipList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9690E9297530D6008AA5E7 /* TypeChipList.swift */; };
+		FC03AF4629949C32009A5D4E /* PokemonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF4529949C32009A5D4E /* PokemonListView.swift */; };
+		FC03AF4829949C4B009A5D4E /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF4729949C4B009A5D4E /* PokemonDetailView.swift */; };
+		FC03AF4C2994A05F009A5D4E /* OtpVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF4B2994A05F009A5D4E /* OtpVerificationView.swift */; };
+		FC03AF4E2994A06B009A5D4E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF4D2994A06B009A5D4E /* AuthView.swift */; };
+		FC03AF502994A0BD009A5D4E /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF4F2994A0BD009A5D4E /* ViewExtension.swift */; };
+		FC03AF522994A0DB009A5D4E /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF512994A0DB009A5D4E /* CustomMapView.swift */; };
+		FC03AF542994A109009A5D4E /* CustomTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF532994A109009A5D4E /* CustomTimePickerView.swift */; };
+		FC03AF562994A11D009A5D4E /* DownloadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF552994A11D009A5D4E /* DownloadingView.swift */; };
+		FC03AF582994A12A009A5D4E /* LiquidSwipeHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF572994A12A009A5D4E /* LiquidSwipeHome.swift */; };
+		FC03AF5A2994A137009A5D4E /* ProgessBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF592994A137009A5D4E /* ProgessBarView.swift */; };
+		FC03AF5C2994A142009A5D4E /* SplitTheBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF5B2994A142009A5D4E /* SplitTheBillView.swift */; };
+		FC03AF5E2994A150009A5D4E /* TinderSwipableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF5D2994A150009A5D4E /* TinderSwipableCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +57,18 @@
 		EA9690E529752AD7008AA5E7 /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
 		EA9690E729752C88008AA5E7 /* PokeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeRow.swift; sourceTree = "<group>"; };
 		EA9690E9297530D6008AA5E7 /* TypeChipList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeChipList.swift; sourceTree = "<group>"; };
+		FC03AF4529949C32009A5D4E /* PokemonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListView.swift; sourceTree = "<group>"; };
+		FC03AF4729949C4B009A5D4E /* PokemonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailView.swift; sourceTree = "<group>"; };
+		FC03AF4B2994A05F009A5D4E /* OtpVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationView.swift; sourceTree = "<group>"; };
+		FC03AF4D2994A06B009A5D4E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		FC03AF4F2994A0BD009A5D4E /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		FC03AF512994A0DB009A5D4E /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
+		FC03AF532994A109009A5D4E /* CustomTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimePickerView.swift; sourceTree = "<group>"; };
+		FC03AF552994A11D009A5D4E /* DownloadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingView.swift; sourceTree = "<group>"; };
+		FC03AF572994A12A009A5D4E /* LiquidSwipeHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidSwipeHome.swift; sourceTree = "<group>"; };
+		FC03AF592994A137009A5D4E /* ProgessBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessBarView.swift; sourceTree = "<group>"; };
+		FC03AF5B2994A142009A5D4E /* SplitTheBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitTheBillView.swift; sourceTree = "<group>"; };
+		FC03AF5D2994A150009A5D4E /* TinderSwipableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipableCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,16 +110,26 @@
 		325DA0AF2921E770005F2E23 /* SwiftUIPortal */ = {
 			isa = PBXGroup;
 			children = (
-				EA9690E029752947008AA5E7 /* Pokemon */,
-				325DA0B02921E770005F2E23 /* SwiftUIPortalApp.swift */,
-				3254EC8B29247BAE009308B9 /* NetworkMonitor */,
+				325DA0B62921E773005F2E23 /* Preview Content */,
+				FC03AF4A2994A04C009A5D4E /* Resources */,
+				FC03AF4929949F7A009A5D4E /* App */,
 				325DA0B22921E770005F2E23 /* ContentView.swift */,
+				FC03AF4F2994A0BD009A5D4E /* ViewExtension.swift */,
+				EA9690E029752947008AA5E7 /* Pokemon */,
+				3254EC8B29247BAE009308B9 /* NetworkMonitor */,
 				EA9690D72974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift */,
 				325DA0C42921E993005F2E23 /* CircularProgressBarView */,
-				325DA0B42921E772005F2E23 /* Assets.xcassets */,
-				325DA0B62921E773005F2E23 /* Preview Content */,
 				EA9690D32974ED85008AA5E7 /* RippleAnimation.swift */,
 				EA9690D52974F17E008AA5E7 /* AWBreathAnimation.swift */,
+				FC03AF4B2994A05F009A5D4E /* OtpVerificationView.swift */,
+				FC03AF512994A0DB009A5D4E /* CustomMapView.swift */,
+				FC03AF4D2994A06B009A5D4E /* AuthView.swift */,
+				FC03AF532994A109009A5D4E /* CustomTimePickerView.swift */,
+				FC03AF572994A12A009A5D4E /* LiquidSwipeHome.swift */,
+				FC03AF552994A11D009A5D4E /* DownloadingView.swift */,
+				FC03AF592994A137009A5D4E /* ProgessBarView.swift */,
+				FC03AF5B2994A142009A5D4E /* SplitTheBillView.swift */,
+				FC03AF5D2994A150009A5D4E /* TinderSwipableCardView.swift */,
 			);
 			path = SwiftUIPortal;
 			sourceTree = "<group>";
@@ -126,8 +160,26 @@
 				EA9690E729752C88008AA5E7 /* PokeRow.swift */,
 				EA9690E9297530D6008AA5E7 /* TypeChipList.swift */,
 				EA9690E529752AD7008AA5E7 /* PokemonView.swift */,
+				FC03AF4529949C32009A5D4E /* PokemonListView.swift */,
+				FC03AF4729949C4B009A5D4E /* PokemonDetailView.swift */,
 			);
 			path = Pokemon;
+			sourceTree = "<group>";
+		};
+		FC03AF4929949F7A009A5D4E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				325DA0B02921E770005F2E23 /* SwiftUIPortalApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC03AF4A2994A04C009A5D4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				325DA0B42921E772005F2E23 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,20 +252,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC03AF4629949C32009A5D4E /* PokemonListView.swift in Sources */,
+				FC03AF4C2994A05F009A5D4E /* OtpVerificationView.swift in Sources */,
+				FC03AF542994A109009A5D4E /* CustomTimePickerView.swift in Sources */,
 				EA9690D42974ED85008AA5E7 /* RippleAnimation.swift in Sources */,
 				EA9690D82974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift in Sources */,
 				3254EC8F29247C58009308B9 /* DetectNetworkContentView.swift in Sources */,
 				325DA0B32921E770005F2E23 /* ContentView.swift in Sources */,
 				3254EC8D29247BDD009308B9 /* NetworkMonitor.swift in Sources */,
 				EA9690E429752AAA008AA5E7 /* PokemonModel.swift in Sources */,
+				FC03AF4E2994A06B009A5D4E /* AuthView.swift in Sources */,
+				FC03AF562994A11D009A5D4E /* DownloadingView.swift in Sources */,
 				EA9690EA297530D6008AA5E7 /* TypeChipList.swift in Sources */,
+				FC03AF5A2994A137009A5D4E /* ProgessBarView.swift in Sources */,
+				FC03AF4829949C4B009A5D4E /* PokemonDetailView.swift in Sources */,
+				FC03AF5C2994A142009A5D4E /* SplitTheBillView.swift in Sources */,
 				325DA0BF2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift in Sources */,
 				EA9690E629752AD7008AA5E7 /* PokemonView.swift in Sources */,
 				EA9690E22975295B008AA5E7 /* PokeAPIService.swift in Sources */,
+				FC03AF502994A0BD009A5D4E /* ViewExtension.swift in Sources */,
+				FC03AF582994A12A009A5D4E /* LiquidSwipeHome.swift in Sources */,
 				325DA0B12921E770005F2E23 /* SwiftUIPortalApp.swift in Sources */,
 				325DA0C12921E8CE005F2E23 /* CircularProgressBarProgressView.swift in Sources */,
 				EA9690D62974F17E008AA5E7 /* AWBreathAnimation.swift in Sources */,
+				FC03AF522994A0DB009A5D4E /* CustomMapView.swift in Sources */,
 				325DA0C32921E921005F2E23 /* CircularProgressBarView.swift in Sources */,
+				FC03AF5E2994A150009A5D4E /* TinderSwipableCardView.swift in Sources */,
 				EA9690E829752C88008AA5E7 /* PokeRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
