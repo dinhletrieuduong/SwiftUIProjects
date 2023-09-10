@@ -64,14 +64,23 @@ class NetworkMonitor: ObservableObject {
     private let workerQueue = DispatchQueue(label: "monitor")
     
     var isConnected: Bool = false
+    @Published var isActive = false
+    @Published var isExpensive = false
+    @Published var isConstrained = false
+    @Published var connectionType = NWInterface.InterfaceType.other
     
     init() {
         networkMonitor.pathUpdateHandler = { path in
             self.isConnected = path.status == .satisfied
             
-//                DispatchQueue.main.async {
-//                    self.isConnected = path.status == .satisfied
-//                }
+            DispatchQueue.main.async {
+                self.isActive = path.status == .satisfied
+                self.isExpensive = path.isExpensive
+                self.isConstrained = path.isConstrained
+                
+                let connectionTypes: [NWInterface.InterfaceType] = [.cellular, .wifi, .wiredEthernet]
+                self.connectionType = connectionTypes.first(where: path.usesInterfaceType) ?? .other
+            }
             Task {
                 await MainActor.run {
                     self.objectWillChange.send()
