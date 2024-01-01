@@ -55,7 +55,8 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
         .authBiometricView,
         .optVerification,
         .youtubeOpeningAnimation,
-        .flowerPetals
+        .flowerPetals,
+        .watchHeartAnimation,
     ]
     
     
@@ -87,6 +88,9 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
     case youtubeOpeningAnimation
     
     case flowerPetals
+    
+    case watchHeartAnimation
+    
     case empty
     
 
@@ -142,6 +146,8 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 return "Youtube Opening"
             case .flowerPetals:
                 return "Flower Petals"
+            case .watchHeartAnimation:
+                return "WatchOS 10 Heart App Animation"
         }
     }
     
@@ -204,6 +210,14 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 YoutubeOpeningAnimation()
             case .flowerPetals:
                 FlowerPetals()
+
+            case .watchHeartAnimation:
+                if #available(iOS 17.0, *) {
+                    HeartAnimationView()
+                        .preferredColorScheme(.dark)
+                } else {
+                    EmptyView()
+                }
         }
     }
     
