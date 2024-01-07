@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC9DA0B82B491747009B05A4 /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9DA0B72B491747009B05A4 /* NewExpenseView.swift */; };
+		FC9DA0B82B491747009B05A4 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9DA0B72B491747009B05A4 /* TransactionView.swift */; };
+		FC9DA0BA2B4A9C20009B05A4 /* FilterTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9DA0B92B4A9C20009B05A4 /* FilterTransactionView.swift */; };
 		FCB4429B2B411F7100BBA560 /* MoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4429A2B411F7100BBA560 /* MoneyTrackerApp.swift */; };
 		FCB4429D2B411F7100BBA560 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4429C2B411F7100BBA560 /* ContentView.swift */; };
 		FCB442A12B411F7200BBA560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB442A02B411F7200BBA560 /* Assets.xcassets */; };
@@ -32,7 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC9DA0B72B491747009B05A4 /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
+		FC9DA0B72B491747009B05A4 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		FC9DA0B92B4A9C20009B05A4 /* FilterTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionView.swift; sourceTree = "<group>"; };
 		FCB442972B411F7100BBA560 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB4429A2B411F7100BBA560 /* MoneyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerApp.swift; sourceTree = "<group>"; };
 		FCB4429C2B411F7100BBA560 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,7 +114,7 @@
 				FCB442C62B41C67400BBA560 /* Helpers */,
 				FCB442B92B41279300BBA560 /* TabViews */,
 				FCB442AC2B411F9D00BBA560 /* IntroScreen.swift */,
-				FC9DA0B72B491747009B05A4 /* NewExpenseView.swift */,
+				FC9DA0B72B491747009B05A4 /* TransactionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +159,7 @@
 				FCB442CB2B41CE8900BBA560 /* SwipeAction.swift */,
 				FCB442CD2B41DA7300BBA560 /* DateFilterView.swift */,
 				FCC9339F2B42DED000FF1936 /* LockView.swift */,
+				FC9DA0B92B4A9C20009B05A4 /* FilterTransactionView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -233,13 +236,14 @@
 			files = (
 				FCB442BD2B4127AE00BBA560 /* SearchView.swift in Sources */,
 				FCB442B82B41268B00BBA560 /* TintColor.swift in Sources */,
+				FC9DA0BA2B4A9C20009B05A4 /* FilterTransactionView.swift in Sources */,
 				FCB442CE2B41DA7300BBA560 /* DateFilterView.swift in Sources */,
 				FCB442B62B4125C200BBA560 /* Transaction.swift in Sources */,
 				FCB442B02B4121E500BBA560 /* Constants.swift in Sources */,
 				FCB442C82B41C68200BBA560 /* CardView.swift in Sources */,
 				FCB442CC2B41CE8900BBA560 /* SwipeAction.swift in Sources */,
 				FCB442AD2B411F9D00BBA560 /* IntroScreen.swift in Sources */,
-				FC9DA0B82B491747009B05A4 /* NewExpenseView.swift in Sources */,
+				FC9DA0B82B491747009B05A4 /* TransactionView.swift in Sources */,
 				FCB442BB2B4127A200BBA560 /* RecentsView.swift in Sources */,
 				FCB4429D2B411F7100BBA560 /* ContentView.swift in Sources */,
 				FCB442C52B41C4E900BBA560 /* DateExtensions.swift in Sources */,
