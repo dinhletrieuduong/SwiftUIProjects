@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct RecentsView: View {
     /// User properties
@@ -20,6 +21,8 @@ struct RecentsView: View {
     
     /// For animations
     @Namespace private var animation
+    
+    @Query(sort: [SortDescriptor(\Transaction.dateAdded, order: .reverse)], animation: .snappy) private var transactions: [Transaction]
     
     var body: some View {
         GeometryReader(content: { geometry in
@@ -47,8 +50,14 @@ struct RecentsView: View {
                             CustomSegmentedControl()
                                 .padding(.bottom, 10)
                             
-                            ForEach(sampleTransactions.filter({ $0.category == selectedCategory.rawValue })) { transaction in
-                                TransactionCardView(transaction: transaction)
+                            ForEach(transactions) { transaction in
+                                NavigationLink {
+                                    NewExpenseView(editTransaction: transaction)
+                                } label: {
+                                    TransactionCardView(transaction: transaction)
+                                }
+                                .buttonStyle(.plain)
+                                
                             }
                         } header: {
                             HeaderView(size)
@@ -128,7 +137,7 @@ struct RecentsView: View {
             Spacer(minLength: 0)
             
             NavigationLink {
-                
+                NewExpenseView()
             } label: {
                 Image(systemName: "plus")
                     .font(.title3)
