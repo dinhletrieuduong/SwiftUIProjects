@@ -30,34 +30,35 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
         }
     }
     
-    static var allCases: [Route] = [
-        .home,
-        .pokemonView,
-        .detectNetwork,
-        .splitBill,
-        .downloadingView,
-        .awBreath,
-        .empty,
-        .tinderSwipableCard,
-        .activityIndicator,
-        .datePickerView,
-        .customTimePickerView,
-        .customMapView,
-        .rippleAnimation,
-        .circularProgressBar,
-        .circularProgressBase,
-        .dashedHalvedCircularBar,
-        .cardCreation,
-        .sequenceAnimation,
-        .tapBarT,
-        .transparentBlurView,
-        .liquidSwipe,
-        .authBiometricView,
-        .optVerification,
-        .youtubeOpeningAnimation,
-        .flowerPetals,
-        .watchHeartAnimation,
-    ]
+//    static var allCases: [Route] = [
+//        .home,
+//        .pokemonView,
+//        .detectNetwork,
+//        .splitBill,
+//        .downloadingView,
+//        .awBreath,
+//        .empty,
+//        .tinderSwipableCard,
+//        .activityIndicator,
+//        .datePickerView,
+//        .customTimePickerView,
+//        .customMapView,
+//        .rippleAnimation,
+//        .circularProgressBar,
+//        .circularProgressBase,
+//        .dashedHalvedCircularBar,
+//        .cardCreation,
+//        .sequenceAnimation,
+//        .tapBarT,
+//        .transparentBlurView,
+//        .liquidSwipe,
+//        .authBiometricView,
+//        .optVerification,
+//        .youtubeOpeningAnimation,
+//        .flowerPetals,
+//        .watchHeartAnimation,
+//        .infiniteCarouselView,
+//    ]
     
     
     case home // Start round
@@ -90,6 +91,8 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
     case flowerPetals
     
     case watchHeartAnimation
+    case infiniteCarouselView
+    case statusBarUpdateView
     
     case empty
     
@@ -148,6 +151,10 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 return "Flower Petals"
             case .watchHeartAnimation:
                 return "WatchOS 10 Heart App Animation"
+            case .infiniteCarouselView:
+                return "Infinite Carousel View"
+            case .statusBarUpdateView:
+                return "Status Bar Update View"
         }
     }
     
@@ -218,6 +225,10 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 } else {
                     EmptyView()
                 }
+            case .infiniteCarouselView:
+                InfiniteCarouselView()
+            case .statusBarUpdateView:
+                StatusBarUpdateView() // This should be run alone without superview
         }
     }
     

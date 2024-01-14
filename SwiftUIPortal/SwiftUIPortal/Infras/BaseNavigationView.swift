@@ -15,7 +15,9 @@ struct BaseNavigationStackView: View {
         NavigationStack(path: $router.navPath) {
             List {
                 ForEach(Route.allCases) { route in
-                    NavigationLink(route.title, value: route)
+                    if route != .empty {
+                        NavigationLink(route.title, value: route)
+                    }
                 }
             }
             .navigationDestination(for: Route.self) { destination in
