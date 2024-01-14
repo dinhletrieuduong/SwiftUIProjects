@@ -11,6 +11,7 @@ import SwiftData
 // Elastic Scroll
 // Split bill
 // Animation Tab bar
+// Share swift data with the widgets, need to create an App Group ID (Apple Developer's Membership Account)
 
 struct ContentView: View {
     /// Visibility status
