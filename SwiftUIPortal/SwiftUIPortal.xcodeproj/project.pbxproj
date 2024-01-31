@@ -36,6 +36,12 @@
 		FC03AF5A2994A137009A5D4E /* ProgessBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF592994A137009A5D4E /* ProgessBarView.swift */; };
 		FC03AF5C2994A142009A5D4E /* SplitTheBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF5B2994A142009A5D4E /* SplitTheBillView.swift */; };
 		FC03AF5E2994A150009A5D4E /* TinderSwipableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AF5D2994A150009A5D4E /* TinderSwipableCardView.swift */; };
+		FC0669492B5F8BDB00237F91 /* CalmariaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0669482B5F8BDB00237F91 /* CalmariaView.swift */; };
+		FC06694C2B5F8CE400237F91 /* CalmariaVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06694B2B5F8CE400237F91 /* CalmariaVisualEffectView.swift */; };
+		FC0669502B5FD17800237F91 /* CustomToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06694F2B5FD17800237F91 /* CustomToastView.swift */; };
+		FC0669522B602B8600237F91 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0669512B602B8600237F91 /* SideMenuView.swift */; };
+		FC0669542B602CFC00237F91 /* AnimatedStickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0669532B602CFC00237F91 /* AnimatedStickyHeaderView.swift */; };
+		FC1BD8462B62B8AE006EAF40 /* AnimatedSFTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BD8452B62B8AE006EAF40 /* AnimatedSFTabView.swift */; };
 		FC209DCC2B401567006EA403 /* SwipeToHideNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DCB2B401567006EA403 /* SwipeToHideNavBar.swift */; };
 		FC209DCF2B401AA3006EA403 /* ParticleEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DCE2B401AA3006EA403 /* ParticleEmitterView.swift */; };
 		FC209DD12B401C6B006EA403 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DD02B401C6B006EA403 /* ParticleEffect.swift */; };
@@ -73,16 +79,24 @@
 		FC6452842B25922B0008B6E5 /* HeartParticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6452832B25922B0008B6E5 /* HeartParticle.swift */; };
 		FC6452862B2592EC0008B6E5 /* HeartAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6452852B2592EC0008B6E5 /* HeartAnimationView.swift */; };
 		FC9CECB02AA25B0600A2FF4A /* RollingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9CECAF2AA25B0600A2FF4A /* RollingText.swift */; };
+		FC9F0D3D2B63B70B003379E5 /* ParallaxCarouselCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9F0D3C2B63B70B003379E5 /* ParallaxCarouselCard.swift */; };
+		FC9F0D3F2B63B714003379E5 /* ParallaxCarouselCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9F0D3E2B63B714003379E5 /* ParallaxCarouselCardModel.swift */; };
+		FC9F0D412B64C6B9003379E5 /* AnimatedPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9F0D402B64C6B9003379E5 /* AnimatedPageIndicator.swift */; };
 		FCA81F7F2AA62FD5009C9881 /* IntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA81F7E2AA62FD5009C9881 /* IntroModel.swift */; };
 		FCA81F812AA63073009C9881 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA81F802AA63073009C9881 /* IntroView.swift */; };
 		FCAA6A082B540B11004319D4 /* InfiniteCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA6A072B540B11004319D4 /* InfiniteCarouselView.swift */; };
 		FCAA6A0A2B5440B6004319D4 /* NumberTextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA6A092B5440B6004319D4 /* NumberTextAnimation.swift */; };
 		FCAA6A0C2B5447E4004319D4 /* StatusBarUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA6A0B2B5447E4004319D4 /* StatusBarUpdateView.swift */; };
+		FCAC500A2B6A2FC800E41D87 /* ActivityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC50092B6A2FC800E41D87 /* ActivityRing.swift */; };
 		FCAF179C2AAD8AB100CBB953 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF179B2AAD8AB100CBB953 /* Router.swift */; };
 		FCB4428D2B41160E00BBA560 /* ParticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4428C2B41160E00BBA560 /* ParticleModel.swift */; };
 		FCB59AD02A506015008975DC /* ShimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB59ACF2A506015008975DC /* ShimmerEffect.swift */; };
 		FCB59AD52A506C88008975DC /* BillSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB59AD42A506C88008975DC /* BillSplitApp.swift */; };
 		FCD93B6A2AA2588000B07AFE /* SequenceAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD93B692AA2588000B07AFE /* SequenceAnimationHome.swift */; };
+		FCE3CFFC2B5CEAA90012E071 /* GradientCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */; };
+		FCE3CFFE2B5CEF480012E071 /* FacebookReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */; };
+		FCE3D0002B5CF7D90012E071 /* CustomBottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFF2B5CF7D90012E071 /* CustomBottomTabBar.swift */; };
+		FCE3D0022B5D722A0012E071 /* ParallaxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +130,12 @@
 		FC03AF592994A137009A5D4E /* ProgessBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessBarView.swift; sourceTree = "<group>"; };
 		FC03AF5B2994A142009A5D4E /* SplitTheBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitTheBillView.swift; sourceTree = "<group>"; };
 		FC03AF5D2994A150009A5D4E /* TinderSwipableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipableCardView.swift; sourceTree = "<group>"; };
+		FC0669482B5F8BDB00237F91 /* CalmariaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmariaView.swift; sourceTree = "<group>"; };
+		FC06694B2B5F8CE400237F91 /* CalmariaVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmariaVisualEffectView.swift; sourceTree = "<group>"; };
+		FC06694F2B5FD17800237F91 /* CustomToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToastView.swift; sourceTree = "<group>"; };
+		FC0669512B602B8600237F91 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		FC0669532B602CFC00237F91 /* AnimatedStickyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedStickyHeaderView.swift; sourceTree = "<group>"; };
+		FC1BD8452B62B8AE006EAF40 /* AnimatedSFTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSFTabView.swift; sourceTree = "<group>"; };
 		FC209DCB2B401567006EA403 /* SwipeToHideNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToHideNavBar.swift; sourceTree = "<group>"; };
 		FC209DCE2B401AA3006EA403 /* ParticleEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEmitterView.swift; sourceTree = "<group>"; };
 		FC209DD02B401C6B006EA403 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
@@ -153,16 +173,24 @@
 		FC6452832B25922B0008B6E5 /* HeartParticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartParticle.swift; sourceTree = "<group>"; };
 		FC6452852B2592EC0008B6E5 /* HeartAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationView.swift; sourceTree = "<group>"; };
 		FC9CECAF2AA25B0600A2FF4A /* RollingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingText.swift; sourceTree = "<group>"; };
+		FC9F0D3C2B63B70B003379E5 /* ParallaxCarouselCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselCard.swift; sourceTree = "<group>"; };
+		FC9F0D3E2B63B714003379E5 /* ParallaxCarouselCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselCardModel.swift; sourceTree = "<group>"; };
+		FC9F0D402B64C6B9003379E5 /* AnimatedPageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedPageIndicator.swift; sourceTree = "<group>"; };
 		FCA81F7E2AA62FD5009C9881 /* IntroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroModel.swift; sourceTree = "<group>"; };
 		FCA81F802AA63073009C9881 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		FCAA6A072B540B11004319D4 /* InfiniteCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarouselView.swift; sourceTree = "<group>"; };
 		FCAA6A092B5440B6004319D4 /* NumberTextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextAnimation.swift; sourceTree = "<group>"; };
 		FCAA6A0B2B5447E4004319D4 /* StatusBarUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarUpdateView.swift; sourceTree = "<group>"; };
+		FCAC50092B6A2FC800E41D87 /* ActivityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRing.swift; sourceTree = "<group>"; };
 		FCAF179B2AAD8AB100CBB953 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		FCB4428C2B41160E00BBA560 /* ParticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleModel.swift; sourceTree = "<group>"; };
 		FCB59ACF2A506015008975DC /* ShimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffect.swift; sourceTree = "<group>"; };
 		FCB59AD42A506C88008975DC /* BillSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillSplitApp.swift; sourceTree = "<group>"; };
 		FCD93B692AA2588000B07AFE /* SequenceAnimationHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceAnimationHome.swift; sourceTree = "<group>"; };
+		FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCardAnimation.swift; sourceTree = "<group>"; };
+		FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookReactions.swift; sourceTree = "<group>"; };
+		FCE3CFFF2B5CF7D90012E071 /* CustomBottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomTabBar.swift; sourceTree = "<group>"; };
+		FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +300,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		FC06694A2B5F8CD300237F91 /* Calmaria */ = {
+			isa = PBXGroup;
+			children = (
+				FC0669482B5F8BDB00237F91 /* CalmariaView.swift */,
+				FC06694B2B5F8CE400237F91 /* CalmariaVisualEffectView.swift */,
+			);
+			path = Calmaria;
+			sourceTree = "<group>";
+		};
 		FC209DCD2B401A93006EA403 /* ParticleEmitter */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +356,8 @@
 				FC209DCD2B401A93006EA403 /* ParticleEmitter */,
 				FC6452822B2592160008B6E5 /* HeartAnimation */,
 				FC47A76E2AA4FF0E00E3F150 /* ViewModels */,
+				FC06694A2B5F8CD300237F91 /* Calmaria */,
+				FC9F0D3B2B63B6E5003379E5 /* ParallaxCarouselCard */,
 				FC47A7492AA4FEC900E3F150 /* CircleButton.swift */,
 				FC47A7502AA4FEC900E3F150 /* DownloadImageView.swift */,
 				FC47A7442AA4FEC900E3F150 /* fireworks3.json */,
@@ -355,6 +394,16 @@
 				FCAA6A072B540B11004319D4 /* InfiniteCarouselView.swift */,
 				FCAA6A092B5440B6004319D4 /* NumberTextAnimation.swift */,
 				FCAA6A0B2B5447E4004319D4 /* StatusBarUpdateView.swift */,
+				FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */,
+				FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */,
+				FCE3CFFF2B5CF7D90012E071 /* CustomBottomTabBar.swift */,
+				FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */,
+				FC06694F2B5FD17800237F91 /* CustomToastView.swift */,
+				FC0669512B602B8600237F91 /* SideMenuView.swift */,
+				FC0669532B602CFC00237F91 /* AnimatedStickyHeaderView.swift */,
+				FC1BD8452B62B8AE006EAF40 /* AnimatedSFTabView.swift */,
+				FC9F0D402B64C6B9003379E5 /* AnimatedPageIndicator.swift */,
+				FCAC50092B6A2FC800E41D87 /* ActivityRing.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -382,6 +431,15 @@
 				FC9CECAF2AA25B0600A2FF4A /* RollingText.swift */,
 			);
 			path = RollingCounter;
+			sourceTree = "<group>";
+		};
+		FC9F0D3B2B63B6E5003379E5 /* ParallaxCarouselCard */ = {
+			isa = PBXGroup;
+			children = (
+				FC9F0D3C2B63B70B003379E5 /* ParallaxCarouselCard.swift */,
+				FC9F0D3E2B63B714003379E5 /* ParallaxCarouselCardModel.swift */,
+			);
+			path = ParallaxCarouselCard;
 			sourceTree = "<group>";
 		};
 		FCA81F7D2AA62FBB009C9881 /* IntroAnimation */ = {
@@ -505,19 +563,25 @@
 				FC47A7602AA4FEC900E3F150 /* ShapeAnimation.swift in Sources */,
 				FC47A75A2AA4FEC900E3F150 /* SpreadingAnim.swift in Sources */,
 				FC03AF542994A109009A5D4E /* CustomTimePickerView.swift in Sources */,
+				FC06694C2B5F8CE400237F91 /* CalmariaVisualEffectView.swift in Sources */,
 				FC47A7702AA4FF0E00E3F150 /* Counter.swift in Sources */,
+				FC9F0D412B64C6B9003379E5 /* AnimatedPageIndicator.swift in Sources */,
 				FC47A72F2AA323FB00E3F150 /* CardList.swift in Sources */,
 				FC47A7632AA4FEC900E3F150 /* PathViews.swift in Sources */,
+				FCE3CFFC2B5CEAA90012E071 /* GradientCardAnimation.swift in Sources */,
 				FCB59AD02A506015008975DC /* ShimmerEffect.swift in Sources */,
 				FC47A7582AA4FEC900E3F150 /* FlowerPetals.swift in Sources */,
 				FC209DCC2B401567006EA403 /* SwipeToHideNavBar.swift in Sources */,
 				EA9690D42974ED85008AA5E7 /* RippleAnimation.swift in Sources */,
 				FC5078F72A4930CF00E1EE77 /* TransparentBlurView.swift in Sources */,
+				FC0669502B5FD17800237F91 /* CustomToastView.swift in Sources */,
 				FCA81F812AA63073009C9881 /* IntroView.swift in Sources */,
 				EA9690D82974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift in Sources */,
 				FC209DD12B401C6B006EA403 /* ParticleEffect.swift in Sources */,
 				FC47A7332AA355AD00E3F150 /* BaseNavigationView.swift in Sources */,
+				FC9F0D3D2B63B70B003379E5 /* ParallaxCarouselCard.swift in Sources */,
 				3254EC8F29247C58009308B9 /* DetectNetworkContentView.swift in Sources */,
+				FC0669542B602CFC00237F91 /* AnimatedStickyHeaderView.swift in Sources */,
 				325DA0B32921E770005F2E23 /* ContentView.swift in Sources */,
 				FC47A7302AA323FB00E3F150 /* TransactionsView.swift in Sources */,
 				FC47A7642AA4FEC900E3F150 /* NewYearAnim.swift in Sources */,
@@ -531,14 +595,18 @@
 				FC47A75B2AA4FEC900E3F150 /* Switch.swift in Sources */,
 				FC47A72D2AA323FB00E3F150 /* CardView.swift in Sources */,
 				EA9690EA297530D6008AA5E7 /* TypeChipList.swift in Sources */,
+				FC1BD8462B62B8AE006EAF40 /* AnimatedSFTabView.swift in Sources */,
+				FC0669492B5F8BDB00237F91 /* CalmariaView.swift in Sources */,
 				FC03AF5A2994A137009A5D4E /* ProgessBarView.swift in Sources */,
 				FC47A7532AA4FEC900E3F150 /* OpacityAnimation.swift in Sources */,
 				FCB59AD52A506C88008975DC /* BillSplitApp.swift in Sources */,
 				FC9CECB02AA25B0600A2FF4A /* RollingText.swift in Sources */,
 				FC47A75D2AA4FEC900E3F150 /* LottieView.swift in Sources */,
+				FC0669522B602B8600237F91 /* SideMenuView.swift in Sources */,
 				FC03AF4829949C4B009A5D4E /* PokemonDetailView.swift in Sources */,
 				FC6452862B2592EC0008B6E5 /* HeartAnimationView.swift in Sources */,
 				FC47A7572AA4FEC900E3F150 /* PopularView.swift in Sources */,
+				FCE3CFFE2B5CEF480012E071 /* FacebookReactions.swift in Sources */,
 				FC47A7312AA323FB00E3F150 /* MoneyManagerContentView.swift in Sources */,
 				FC47A7392AA49AC900E3F150 /* CardCreationView.swift in Sources */,
 				FC47A72C2AA323FB00E3F150 /* TransactionRow.swift in Sources */,
@@ -547,11 +615,14 @@
 				FC47A73B2AA4FD0900E3F150 /* Utils.swift in Sources */,
 				325DA0BF2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift in Sources */,
 				EA9690E629752AD7008AA5E7 /* PokemonView.swift in Sources */,
+				FCAC500A2B6A2FC800E41D87 /* ActivityRing.swift in Sources */,
 				FCAA6A0C2B5447E4004319D4 /* StatusBarUpdateView.swift in Sources */,
 				FC47A7542AA4FEC900E3F150 /* LinkedInLoader.swift in Sources */,
 				EA9690E22975295B008AA5E7 /* PokeAPIService.swift in Sources */,
 				FC03AF502994A0BD009A5D4E /* ViewExtension.swift in Sources */,
+				FC9F0D3F2B63B714003379E5 /* ParallaxCarouselCardModel.swift in Sources */,
 				FC47A7552AA4FEC900E3F150 /* LoginView.swift in Sources */,
+				FCE3D0022B5D722A0012E071 /* ParallaxCardView.swift in Sources */,
 				FC47A7522AA4FEC900E3F150 /* ProgressCircleStack.swift in Sources */,
 				FC03AF582994A12A009A5D4E /* LiquidSwipeHome.swift in Sources */,
 				FCD93B6A2AA2588000B07AFE /* SequenceAnimationHome.swift in Sources */,
@@ -559,6 +630,7 @@
 				325DA0C12921E8CE005F2E23 /* CircularProgressBarProgressView.swift in Sources */,
 				FCAA6A0A2B5440B6004319D4 /* NumberTextAnimation.swift in Sources */,
 				FCB4428D2B41160E00BBA560 /* ParticleModel.swift in Sources */,
+				FCE3D0002B5CF7D90012E071 /* CustomBottomTabBar.swift in Sources */,
 				EA9690D62974F17E008AA5E7 /* AWBreathAnimation.swift in Sources */,
 				FC03AF522994A0DB009A5D4E /* CustomMapView.swift in Sources */,
 				FC47A75E2AA4FEC900E3F150 /* CircleButton.swift in Sources */,

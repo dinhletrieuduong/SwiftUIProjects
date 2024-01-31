@@ -30,37 +30,6 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
         }
     }
     
-//    static var allCases: [Route] = [
-//        .home,
-//        .pokemonView,
-//        .detectNetwork,
-//        .splitBill,
-//        .downloadingView,
-//        .awBreath,
-//        .empty,
-//        .tinderSwipableCard,
-//        .activityIndicator,
-//        .datePickerView,
-//        .customTimePickerView,
-//        .customMapView,
-//        .rippleAnimation,
-//        .circularProgressBar,
-//        .circularProgressBase,
-//        .dashedHalvedCircularBar,
-//        .cardCreation,
-//        .sequenceAnimation,
-//        .tapBarT,
-//        .transparentBlurView,
-//        .liquidSwipe,
-//        .authBiometricView,
-//        .optVerification,
-//        .youtubeOpeningAnimation,
-//        .flowerPetals,
-//        .watchHeartAnimation,
-//        .infiniteCarouselView,
-//    ]
-    
-    
     case home // Start round
     case pokemonView
     case detectNetwork
@@ -93,6 +62,14 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
     case watchHeartAnimation
     case infiniteCarouselView
     case statusBarUpdateView
+    case parallaxCardView
+    
+    case calmaria
+    case customToast
+    case gradientCard
+    case fbReactions
+    
+    case animatedPageIndicator
     
     case empty
     
@@ -155,6 +132,18 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 return "Infinite Carousel View"
             case .statusBarUpdateView:
                 return "Status Bar Update View"
+            case .parallaxCardView:
+                return "Parallax Card View"
+            case .calmaria:
+                return "Calmaria"
+            case .customToast:
+                return "Custom Toast"
+            case .gradientCard:
+                return "Custom Gradient Card"
+            case .fbReactions:
+                return "Facebook Reactions"
+            case .animatedPageIndicator:
+                return "Paging Indicator"
         }
     }
     
@@ -229,6 +218,22 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 InfiniteCarouselView()
             case .statusBarUpdateView:
                 StatusBarUpdateView() // This should be run alone without superview
+                
+            case .parallaxCardView:
+                ParallaxCardView()
+                
+                
+            case .calmaria:
+                CalmariaView()
+            case .customToast:
+                CustomToastView()
+            case .gradientCard:
+                GradientCardAnimation()
+            case .fbReactions:
+                FBReaction()
+                
+            case .animatedPageIndicator:
+                AnimatedPageIndicator()
         }
     }
     
@@ -254,6 +259,12 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
         case tapBarT
         case transparentBlurView
         case liquidSwipe
+        case parallaxCardView
+        
+        case calmaria
+        case customToast
+        case gradientCard
+        case fbReactions
         
         case errorScreen
         case empty

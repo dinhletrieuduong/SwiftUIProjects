@@ -54,7 +54,7 @@ struct TinderSwipableCardView: View {
                     // 8. Add the drag gesture to the card
                         .gesture(drag)
                     // Determine an animation styllee
-                        .animation(.spring())
+                        .animation(.spring(), value: offset)
                 }
             }
             
