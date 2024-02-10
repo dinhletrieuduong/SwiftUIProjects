@@ -76,6 +76,7 @@ struct ExpenseCardView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
         }
         .frame(height: 220)
+        .addSpotlight(1, shape: .rounded, roundedRadius: 20, text: "Ongoing Stats!")
         .padding(.top)
     }
 }

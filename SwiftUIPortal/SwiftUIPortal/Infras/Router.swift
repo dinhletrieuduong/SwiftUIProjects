@@ -12,11 +12,7 @@ enum AppError: Error, Hashable {
     case error(message: String)
 }
 
-enum Route: Hashable, Equatable, Identifiable, CaseIterable {
-    var id: Self {
-        return self
-    }
-    
+enum Route: Hashable, Equatable, CaseIterable {
     init?(id : Int) {
         switch id {
             case 1:
@@ -44,12 +40,11 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
     case customMapView
     case rippleAnimation
     
-    case circularProgressBar
-    case circularProgressBase
-    case dashedHalvedCircularBar
     case cardCreation
     case sequenceAnimation
     case tapBarT
+    case customBottomTabBar
+    case animatedSFTabView
     case transparentBlurView
     case liquidSwipe
     
@@ -70,6 +65,18 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
     case fbReactions
     
     case animatedPageIndicator
+    case activityRing
+    case musicPlayer
+    case qrScanner
+    case floatingButton
+    case typeWriterText
+    case shimmerView
+    case animatedDot
+    case tabCategory
+    case morphingDrag
+    case passcode
+    case customLayoutTag
+    case chatGPTLoginAnimation
     
     case empty
     
@@ -102,22 +109,20 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 return "Custom Map"
             case .rippleAnimation:
                 return "Ripple Animation"
-            case .circularProgressBar:
-                return "Circular Progress Bar"
-            case .circularProgressBase:
-                return "Circular Progress Base"
             case .cardCreation:
                 return "Card Creation"
             case .sequenceAnimation:
                 return "Sequence Animation"
             case .tapBarT:
                 return "Tap Bar T"
+            case .customBottomTabBar:
+                return "Custom Bottom Tab Bar"
+            case .animatedSFTabView:
+                return "Animated SF Tab"
             case .transparentBlurView:
                 return "Transparent Blur View"
             case .liquidSwipe:
                 return "Liquid Swipe"
-            case .dashedHalvedCircularBar:
-                return "Dashed Halved Circular Bar"
             case .authBiometricView:
                 return "Auth With Biometric"
             case .optVerification:
@@ -144,6 +149,30 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 return "Facebook Reactions"
             case .animatedPageIndicator:
                 return "Paging Indicator"
+            case .activityRing:
+                return "Activity Ring"
+            case .musicPlayer:
+                return "Music Player"
+            case .qrScanner:
+                return "QR Scanner"
+            case .floatingButton:
+                return "Floating Button"
+            case .typeWriterText:
+                return "Type Writer"
+            case .shimmerView:
+                return "Shimmer View"
+            case .animatedDot:
+                return "Animated Dot"
+            case .tabCategory:
+                return "Tab Category"
+            case .morphingDrag:
+                return "Morphing Drag"
+            case .passcode:
+                return "Passcode"
+            case .customLayoutTag:
+                return "Custom Layout Tag"
+            case .chatGPTLoginAnimation:
+                return "ChatGPT Login"
         }
     }
     
@@ -159,7 +188,7 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
             case .splitBill:
                 SplitTheBillView()
             case .downloadingView:
-                DownloadingView()
+                DownloadingDemoView()
             case .awBreath:
                 AWBreathAnimation()
             case .tinderSwipableCard:
@@ -178,10 +207,6 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
 //                Text("Error: \(error.localizedDescription)")
             case .empty:
                 Text("Empty Screen")
-            case .circularProgressBar:
-                CircularProgressBarSampleView()
-            case .circularProgressBase:
-                CircularProgressBase(circleProgress: 0.01, widthAndHeight: 100, labelSize: 15, lineWidth: 15, staticColor: .black, progressColor: .blue, showLabel: true)
             case .cardCreation:
                 CardCreationView()
             case .sequenceAnimation:
@@ -196,8 +221,6 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 }
             case .liquidSwipe:
                 LiquidSwipeHome()
-            case .dashedHalvedCircularBar:
-                DashedHalvedCircularBar(circleProgress: 0.01, widthAndHeight: 300, progressColor: .blue)
             case .authBiometricView:
                 AuthView()
             case .optVerification:
@@ -233,7 +256,42 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
                 FBReaction()
                 
             case .animatedPageIndicator:
-                AnimatedPageIndicator()
+                CustomPagingSliderDemoView()
+                
+            case .activityRing:
+                ActivityRingContentView()
+            case .musicPlayer:
+                MusicPlayerView()
+            case .qrScanner:
+                QRScannerView()
+            case .floatingButton:
+                FloatingButtonView {
+                    
+                }
+            case .typeWriterText:
+                TypewriterTextView(text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", font: .body)
+                
+            case .shimmerView:
+                ShimmerEffectDemo()
+            case .animatedDot:
+                AnimatedDotView()
+            case .tabCategory:
+                TabCategoryViewDemo()
+            case .morphingDrag:
+                MorphingDragView {
+                    Rectangle()
+                }
+            case .passcode:
+                PasscodeDemoView()
+            case .customLayoutTag:
+                CustomLayoutTagView()
+            case .chatGPTLoginAnimation:
+                ChatGPTLoginAnimationView()
+                
+            case .customBottomTabBar:
+                CustomBottomTabBar()
+            case .animatedSFTabView:
+                AnimatedSFTabView()
         }
     }
     
@@ -252,8 +310,6 @@ enum Route: Hashable, Equatable, Identifiable, CaseIterable {
         case customMapView
         case rippleAnimation
         
-        case circleProgressBar
-        case circularProgressBase
         case cardCreation
         case sequenceAnimation
         case tapBarT

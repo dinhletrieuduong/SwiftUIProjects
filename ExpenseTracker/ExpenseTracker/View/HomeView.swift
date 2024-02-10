@@ -10,6 +10,11 @@ import SwiftUI
 
 struct HomeView: View {
     @StateObject var expenseViewModel: ExpenseViewModel = .init()
+    
+    @State var showSpotlight: Bool = false
+    @State var currentSpotlight: Int = 0
+    
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(spacing: 12) {
@@ -40,6 +45,7 @@ struct HomeView: View {
                             .shadow(color: .black.opacity(0.1), radius: 5, x: 5, y: 5)
                         
                     }
+                    .addSpotlight(0, shape: .rounded, roundedRadius: 10, text: "Expenses Filtering")
                 }
                 
                 ExpenseCardView()
@@ -63,7 +69,10 @@ struct HomeView: View {
         .overlay(alignment: .bottomTrailing) {
             AddTransactionButton()
         }
-
+        .addSpotlightOverlay(show: $showSpotlight, currentSpot: $currentSpotlight)
+        .onAppear {
+            showSpotlight = true
+        }
     }
     
     // MARK: Add new expense transaction
@@ -83,6 +92,8 @@ struct HomeView: View {
                         )
                 }
         }
+        .addSpotlight(3, shape: .circle, text: "Adding new Expense\nTo the App!")
+        .padding()
     }
     
     // MARK: Transactions View
@@ -97,7 +108,12 @@ struct HomeView: View {
             
             ForEach(expenseViewModel.expenses) { item in
                 // MARK: Transaction Card View
-                TransactionCardView(expense: item).environmentObject(expenseViewModel)
+                if item.id == expenseViewModel.expenses.first?.id {
+                    TransactionCardView(expense: item).environmentObject(expenseViewModel)
+                        .addSpotlight(2, shape: .rounded, roundedRadius: 15, text: "Transaction Details!")
+                } else {
+                    TransactionCardView(expense: item).environmentObject(expenseViewModel)
+                }
             }
         }
         .padding(.top)

@@ -57,7 +57,10 @@ struct InfiniteCarouselView: View {
             })
             .tabViewStyle(.page(indexDisplayMode: .never))
             .overlay(alignment: .bottom) {
-                PageControl(totalPages: listOfPages.count, currentPage: originalIndex(of: currentPage))
+                PageControl(totalPages: listOfPages.count, currentPage: originalIndex(of: currentPage)) { index in
+                    print(index)
+                    currentPage = listOfPages[index].id.uuidString
+                }
                     .offset(y: -15)
             }
         }
@@ -100,19 +103,40 @@ struct PageControl: UIViewRepresentable {
     var totalPages: Int
     var currentPage: Int
     
+    var onPageChanged: (Int) -> Void
+    
     func makeUIView(context: Context) -> UIPageControl {
         let control = UIPageControl()
         control.numberOfPages = totalPages
         control.currentPage = currentPage
         control.backgroundStyle = .prominent
         control.allowsContinuousInteraction = false
-        control.isUserInteractionEnabled = false
+//        control.isUserInteractionEnabled = false
+        control.currentPageIndicatorTintColor = UIColor(Color.primary)
+        control.pageIndicatorTintColor = UIColor.placeholderText
+        
+        control.addTarget(context.coordinator, action: #selector(Coordinator.onPageUpdate(control:)), for: .valueChanged)
         return control
     }
     
     func updateUIView(_ uiView: UIPageControl, context: Context) {
         uiView.numberOfPages = totalPages
         uiView.currentPage = currentPage
+    }
+    
+    class Coordinator: NSObject {
+        var onPageChanged: (Int) -> Void
+        init(onPageChanged: @escaping (Int) -> Void) {
+            self.onPageChanged = onPageChanged
+        }
+        
+        @objc func onPageUpdate(control: UIPageControl) {
+            onPageChanged(control.currentPage)
+        }
+    }
+    
+    func makeCoordinator() -> Coordinator {
+        return Coordinator(onPageChanged: onPageChanged)
     }
 }
 

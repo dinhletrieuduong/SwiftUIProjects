@@ -19,6 +19,7 @@
 		32A38EFA2913B593009480AE /* ExpenseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A38EF92913B593009480AE /* ExpenseCardView.swift */; };
 		32A38EFC2913C74D009480AE /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A38EFB2913C74D009480AE /* NewExpenseView.swift */; };
 		32A38FBA2914C951009480AE /* ExpenseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32A38FB82914C951009480AE /* ExpenseModel.xcdatamodeld */; };
+		FC2AADC32B72986800586834 /* SpotlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2AADC22B72986800586834 /* SpotlightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		32A38EF92913B593009480AE /* ExpenseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCardView.swift; sourceTree = "<group>"; };
 		32A38EFB2913C74D009480AE /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
 		32A38FB92914C951009480AE /* ExpenseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseModel.xcdatamodel; sourceTree = "<group>"; };
+		FC2AADC22B72986800586834 /* SpotlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		325CACC32912CCA10019AAA2 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				FC2AADC12B72985C00586834 /* Helpers */,
 				325CACD42912D06F0019AAA2 /* ViewModel */,
 				325CACD32912D06A0019AAA2 /* View */,
 				325CACD22912D0660019AAA2 /* Model */,
@@ -113,6 +116,14 @@
 				325CACD92912D1F80019AAA2 /* ExpenseViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC2AADC12B72985C00586834 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC2AADC22B72986800586834 /* SpotlightView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 				325CACD82912D0C30019AAA2 /* Expense.swift in Sources */,
 				32A38EF82913B1D9009480AE /* FilteredDetailView.swift in Sources */,
 				325CACD62912D0940019AAA2 /* HomeView.swift in Sources */,
+				FC2AADC32B72986800586834 /* SpotlightView.swift in Sources */,
 				32A38EFC2913C74D009480AE /* NewExpenseView.swift in Sources */,
 				32A38FBA2914C951009480AE /* ExpenseModel.xcdatamodeld in Sources */,
 				325CACC72912CCA10019AAA2 /* ContentView.swift in Sources */,
@@ -333,6 +345,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +375,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

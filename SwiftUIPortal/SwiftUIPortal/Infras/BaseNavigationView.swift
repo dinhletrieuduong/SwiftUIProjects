@@ -11,18 +11,29 @@ struct BaseNavigationStackView: View {
     
     @ObservedObject var router = Router()
     
+    let columns: [GridItem] = [
+        .init(),
+        .init(),
+    ]
+    
     var body: some View {
         NavigationStack(path: $router.navPath) {
             List {
-                ForEach(Route.allCases) { route in
-                    if route != .empty {
-                        NavigationLink(route.title, value: route)
+//                LazyVGrid(columns: columns, spacing: 0, content: {
+                    ForEach(Route.allCases, id: \.title) { route in
+                        if route != .empty {
+                            NavigationLink(route.title, value: route)
+                                .padding(.vertical)
+                        }
+                        
                     }
-                }
+//                })
             }
+            .listStyle(.insetGrouped)
             .navigationDestination(for: Route.self) { destination in
                 destination.destination()
             }
+            .navigationTitle("Portfolios")
         }
         .environmentObject(router)
         .ignoresSafeArea()

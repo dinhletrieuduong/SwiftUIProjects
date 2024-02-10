@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: AnimatedPageIndicator
 struct AnimatedPageIndicator: View {
     /// View properties
     @State private var colors: [Color] = [.red, .blue, .green, .yellow]
@@ -33,7 +34,7 @@ struct AnimatedPageIndicator: View {
             .scrollTargetBehavior(.viewAligned)
             .scrollIndicators(.hidden)
             .frame(height: 220)
-//            .padding(.top, 15)
+            //            .padding(.top, 15)
             .safeAreaPadding(.vertical, 15)
             .safeAreaPadding(.horizontal, 25)
             
@@ -55,6 +56,7 @@ struct AnimatedPageIndicator: View {
     }
 }
 
+// MARK: PagingIndicator
 struct PagingIndicator: View {
     /// Customization Properties
     var opacityEffect: Bool = false
@@ -109,9 +111,152 @@ struct PagingIndicator: View {
     }
 }
 
+private struct Item: Identifiable {
+    private(set) var id: UUID = .init()
+    var color: Color
+    var title: String
+    var subTitle: String
+}
+
+struct CustomPagingSliderDemoView: View {
+    @State private var items: [Item] = [
+        .init(color: .red, title: "World Clock", subTitle: "View the time in multiple cities around the world."),
+        .init(color: .blue, title: "City Digital", subTitle: "Add a clock for a city to check the time at that location"),
+        .init(color: .green, title: "City Analouge", subTitle: "Add a clock for a city to check the time at that location"),
+        .init(color: .yellow, title: "Next Alarm", subTitle: "Display upcoming alarm."),
+    ]
+    
+    
+    @State private var showsPagingControl: Bool = true
+    @State private var disablePagingInteraction: Bool = false
+    @State private var pagingSpacing: CGFloat = 20
+    @State private var titleScrollSpeed: CGFloat = 0.6
+    @State private var stretchContent: Bool = false
+    
+    var body: some View {
+        
+        ScrollView {
+            VStack {
+                AnimatedPageIndicator()
+                    .frame(height: 500)
+                
+                CustomPagingSlider(showsPagingControl: showsPagingControl, pagingControlSpacing: pagingSpacing, disablePagingIndicator: disablePagingInteraction, titleScrollSpeed: titleScrollSpeed, data: $items) { $item in
+                    RoundedRectangle(cornerRadius: 25)
+                        .fill(item.color.gradient)
+                        .frame(width: stretchContent ? nil : 150, height: stretchContent ? 220 : 120)
+                    
+                } titleContent: { item in
+                    VStack(spacing: 5) {
+                        Text(item.title.wrappedValue)
+                            .font(.largeTitle.bold())
+                        
+                        Text(item.subTitle.wrappedValue)
+                            .foregroundStyle(.gray)
+                            .multilineTextAlignment(.center)
+                            .frame(height: 45)
+                    }
+                    .padding(.bottom, 35)
+                    
+                }
+                
+                List {
+                    Toggle("Show Paging Control", isOn: $showsPagingControl)
+                    Toggle("Disable Page Interaction", isOn: $disablePagingInteraction)
+                    Toggle("Stretch Content", isOn: $stretchContent)
+                    
+                    Section("Title Scroll Speed") {
+                        Slider(value: $titleScrollSpeed, in: 0...40)
+                    }
+                    Section("Paging Spacing") {
+                        Slider(value: $pagingSpacing, in: 20...40)
+                    }
+                }
+                .clipShape(.rect(cornerRadius: 15))
+                .padding(15)
+                .frame(height: 450)
+            }
+        }
+    }
+}
+
+
+struct CustomPagingSlider<Content: View, TitleContent: View, Item: RandomAccessCollection>: View where Item: MutableCollection, Item.Element: Identifiable {
+    
+    var showsPagingControl: Bool = true
+    var showsIndicator: ScrollIndicatorVisibility = .hidden
+    var pagingControlSpacing: CGFloat = 20
+    var disablePagingIndicator: Bool = false
+    
+    var titleScrollSpeed: CGFloat = 0.6
+    var spacing: CGFloat = 10
+    
+    @Binding var data: Item
+    
+    @ViewBuilder var content: (Binding<Item.Element>) -> Content
+    @ViewBuilder var titleContent: (Binding<Item.Element>) -> TitleContent
+    
+    @State private var activeID: UUID?
+    
+    var body: some View {
+        VStack(spacing: pagingControlSpacing) {
+            ScrollView(.horizontal) {
+                HStack(spacing: spacing) {
+                    ForEach($data) { item in
+                        VStack(spacing: 0) {
+                            titleContent(item)
+                                .frame(maxWidth: .infinity)
+                                .visualEffect { content, geometryProxy in
+                                    content
+                                        .offset(x: scrollOffset(geometryProxy))
+                                }
+                            
+                            content(item)
+                        }
+                        .containerRelativeFrame(.horizontal)
+                    }
+                }
+                /// Add paging
+                .scrollTargetLayout()
+            }
+            .scrollIndicators(showsIndicator)
+            .scrollTargetBehavior(.viewAligned)
+            .scrollPosition(id: $activeID)
+            
+            if showsPagingControl {
+                PageControl(totalPages: data.count, currentPage: activePage) { value in
+                    if let index = value as? Item.Index, data.indices.contains(index) {
+                        if let id = data[index].id as? UUID {
+                            withAnimation(.snappy(duration: 0.35, extraBounce: 0)) {
+                                activeID = id
+                            }
+                        }
+                    }
+                }
+                .disabled(disablePagingIndicator)
+            }
+        }
+        .safeAreaPadding([.horizontal, .top], 35)
+    }
+    
+    var activePage: Int {
+        if let index = data.firstIndex(where: { $0.id as? UUID == activeID }) as? Int {
+            return index
+        }
+        return 0
+    }
+    
+    private func scrollOffset(_ proxy: GeometryProxy) -> CGFloat{
+        let minX = proxy.bounds(of: .scrollView)?.minX ?? 0
+        
+        return -minX * min(titleScrollSpeed, 1)
+    }
+    
+}
+
+
 #Preview {
     NavigationStack {
-        AnimatedPageIndicator()
+        CustomPagingSliderDemoView()
     }
     
 }
