@@ -35,7 +35,7 @@ struct AnimatedPageIndicator: View {
             .scrollIndicators(.hidden)
             .frame(height: 220)
             //            .padding(.top, 15)
-            .safeAreaPadding(.vertical, 15)
+            .safeAreaPadding(.top, 15)
             .safeAreaPadding(.horizontal, 25)
             
             List {
@@ -138,7 +138,7 @@ struct CustomPagingSliderDemoView: View {
         ScrollView {
             VStack {
                 AnimatedPageIndicator()
-                    .frame(height: 500)
+                    .frame(height: 470)
                 
                 CustomPagingSlider(showsPagingControl: showsPagingControl, pagingControlSpacing: pagingSpacing, disablePagingIndicator: disablePagingInteraction, titleScrollSpeed: titleScrollSpeed, data: $items) { $item in
                     RoundedRectangle(cornerRadius: 25)

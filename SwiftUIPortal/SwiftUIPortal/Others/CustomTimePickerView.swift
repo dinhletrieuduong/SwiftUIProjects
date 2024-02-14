@@ -7,6 +7,33 @@
 
 import SwiftUI
 
+
+struct DatePickerView: View {
+    
+    @State private var selectedDate = Date()
+    let dateRange: ClosedRange<Date> = {
+        let calendar = Calendar.current
+        let start = Date()
+        let end = DateComponents(year: 2024, month: 12, day: 31, hour: 23, minute: 59, second: 59)
+        return start...calendar.date(from: end)!
+    }()
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            
+            DatePicker("Select a date", selection: $selectedDate, in: dateRange)
+                .datePickerStyle(GraphicalDatePickerStyle())
+            //            .datePickerStyle(WheelDatePickerStyle())
+            
+            
+            CustomTimePickerView()
+            
+            Spacer()
+        }
+    }
+}
+
+
 struct CustomTimePickerView: View {
     
     @StateObject var dateModel = DateViewModel()

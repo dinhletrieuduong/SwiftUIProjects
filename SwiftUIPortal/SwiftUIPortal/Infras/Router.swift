@@ -34,8 +34,6 @@ enum Route: Hashable, Equatable, CaseIterable {
     case awBreath
     
     case tinderSwipableCard
-    case activityIndicator
-    case datePickerView
     case customTimePickerView
     case customMapView
     case rippleAnimation
@@ -77,6 +75,12 @@ enum Route: Hashable, Equatable, CaseIterable {
     case passcode
     case customLayoutTag
     case chatGPTLoginAnimation
+    case interactivePopGesture
+    case themeChange
+    case boomerangCards
+    case professionSideMenu
+    case coverFlow
+    case gitHubAnimation
     
     case empty
     
@@ -99,12 +103,8 @@ enum Route: Hashable, Equatable, CaseIterable {
                 return "Empty Screen"
             case .tinderSwipableCard:
                 return "Tinder Swipable Card"
-            case .activityIndicator:
-                return "ActivityIndicator"
-            case .datePickerView:
-                return "Custom Date Picker"
             case .customTimePickerView:
-                return "Custom Time Picker"
+                return "Custom Date Time Picker"
             case .customMapView:
                 return "Custom Map"
             case .rippleAnimation:
@@ -173,6 +173,18 @@ enum Route: Hashable, Equatable, CaseIterable {
                 return "Custom Layout Tag"
             case .chatGPTLoginAnimation:
                 return "ChatGPT Login"
+            case .interactivePopGesture:
+                return "Interactive Pop Gesture"
+            case .themeChange:
+                return "Theme Change"
+            case .boomerangCards:
+                return "Boomerang Cards"
+            case .professionSideMenu:
+                return "Profession Side Menu"
+            case .coverFlow:
+                return "Cover Flow"
+            case .gitHubAnimation:
+                return "Github Animation"
         }
     }
     
@@ -193,12 +205,8 @@ enum Route: Hashable, Equatable, CaseIterable {
                 AWBreathAnimation()
             case .tinderSwipableCard:
                 TinderSwipableCardView()
-            case .activityIndicator:
-                ActivityIndicator()
-            case .datePickerView:
-                DatePickerView()
             case .customTimePickerView:
-                CustomTimePickerView()
+                DatePickerView()
             case .customMapView:
                 CustomMapView().frame(height: 500, alignment: .center)
             case .rippleAnimation:
@@ -292,6 +300,18 @@ enum Route: Hashable, Equatable, CaseIterable {
                 CustomBottomTabBar()
             case .animatedSFTabView:
                 AnimatedSFTabView()
+            case .interactivePopGesture:
+                InteractivePopGestureDemoView()
+            case .themeChange:
+                ThemeChangeDemoView()
+            case .boomerangCards:
+                BoomerangCardsDemoView()
+            case .professionSideMenu:
+                ProfessionalSideMenuDemoView()
+            case .coverFlow:
+                CoverFlowDemoView()
+            case .gitHubAnimation:
+                GitHubAnimationView()
         }
     }
     

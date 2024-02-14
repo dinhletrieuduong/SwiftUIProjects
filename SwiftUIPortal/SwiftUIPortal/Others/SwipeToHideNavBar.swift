@@ -11,7 +11,7 @@ import SwiftUI
 struct SwipeToHideNavBarView: View {
     @State private var hideNavBar: Bool = false
     var body: some View {
-        NavigationStack {
+        
             List {
                 ForEach(1...50, id: \.self) { index in
                     NavigationLink {
@@ -39,7 +39,7 @@ struct SwipeToHideNavBarView: View {
                 }
             }
             .hideNavBarOnSwipe(hideNavBar)
-        }
+        
     }
 }
 
