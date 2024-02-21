@@ -208,7 +208,7 @@ enum Route: Hashable, Equatable, CaseIterable {
             case .customTimePickerView:
                 DatePickerView()
             case .customMapView:
-                CustomMapView().frame(height: 500, alignment: .center)
+                CustomMapDemoView()
             case .rippleAnimation:
                 RippleAnimation()
 //            case .errorScreen(let error):
