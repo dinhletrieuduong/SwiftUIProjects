@@ -212,6 +212,7 @@
 		FC324EAC2B865AED003C064E /* FluidMusicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMusicButton.swift; sourceTree = "<group>"; };
 		FC324EAE2B865E74003C064E /* IncomingCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCall.swift; sourceTree = "<group>"; };
 		FC324EB02B865F24003C064E /* SlideWith3DYRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideWith3DYRotation.swift; sourceTree = "<group>"; };
+		FC324EB22B866790003C064E /* localizationScript.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = localizationScript.py; sourceTree = "<group>"; };
 		FC3842C12B81E2D700FB8870 /* AnimatedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedContentView.swift; sourceTree = "<group>"; };
 		FC3842C32B81E2F500FB8870 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		FC3842C82B81E35D00FB8870 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
@@ -562,6 +563,7 @@
 			children = (
 				FC47A7322AA355AD00E3F150 /* BaseNavigationView.swift */,
 				FCAF179B2AAD8AB100CBB953 /* Router.swift */,
+				FC324EB22B866790003C064E /* localizationScript.py */,
 			);
 			path = Infras;
 			sourceTree = "<group>";
