@@ -10,5 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         BaseNavigationStackView()
+//        TranslucentBackgroundContentView()
+//        AnimatedContentView()
+//        QRScannerView()
+//        ButtonExperiments()
+        
     }
 }

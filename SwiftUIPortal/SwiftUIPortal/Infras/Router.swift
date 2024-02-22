@@ -82,6 +82,8 @@ enum Route: Hashable, Equatable, CaseIterable {
     case coverFlow
     case gitHubAnimation
     
+    case circleTimerView
+    
     case empty
     
 
@@ -185,6 +187,8 @@ enum Route: Hashable, Equatable, CaseIterable {
                 return "Cover Flow"
             case .gitHubAnimation:
                 return "Github Animation"
+            case .circleTimerView:
+                return "Circle Timer View"
         }
     }
     
@@ -312,6 +316,9 @@ enum Route: Hashable, Equatable, CaseIterable {
                 CoverFlowDemoView()
             case .gitHubAnimation:
                 GitHubAnimationView()
+                
+            case .circleTimerView:
+                CircleTimerDemoView()
         }
     }
     

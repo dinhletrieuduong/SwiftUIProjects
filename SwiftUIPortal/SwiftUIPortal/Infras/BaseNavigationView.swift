@@ -19,15 +19,20 @@ struct BaseNavigationStackView: View {
     var body: some View {
         NavigationStack(path: $router.navPath) {
             List {
-//                LazyVGrid(columns: columns, spacing: 0, content: {
-                    ForEach(Route.allCases, id: \.title) { route in
-                        if route != .empty {
-                            NavigationLink(route.title, value: route)
-                                .padding(.vertical)
+                //                LazyVGrid(columns: columns, spacing: 0, content: {
+                ForEach(Route.allCases, id: \.title) { route in
+                    if route != .empty {
+                        NavigationLink(value: route) {
+                            Text(route.title)
                         }
+                        //                            NavigationLink(route.title, value: route)
                         
+                        
+                        .padding(.vertical)
                     }
-//                })
+                    
+                }
+                //                })
             }
             .listStyle(.insetGrouped)
             .navigationDestination(for: Route.self) { destination in
