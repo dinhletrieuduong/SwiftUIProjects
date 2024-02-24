@@ -133,6 +133,8 @@
 		FC834B272B79DA770046B2B5 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC834B262B79DA770046B2B5 /* ThemeChangeView.swift */; };
 		FC834B292B79EDF10046B2B5 /* BoomerangCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC834B282B79EDF10046B2B5 /* BoomerangCardsView.swift */; };
 		FC834B2C2B79F0DB0046B2B5 /* SwiftAndTipsMacros in Frameworks */ = {isa = PBXBuildFile; productRef = FC834B2B2B79F0DB0046B2B5 /* SwiftAndTipsMacros */; };
+		FC848FAC2B88A0A400A8F0A2 /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FAB2B88A0A400A8F0A2 /* AnimatedExampleView.swift */; };
+		FC848FAE2B88A34600A8F0A2 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FAD2B88A34600A8F0A2 /* CustomAlertView.swift */; };
 		FC975C3D2B713F3B0017AF9B /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */; };
 		FC975C3F2B7142850017AF9B /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3E2B7142850017AF9B /* QRCameraView.swift */; };
 		FC991C082B78CF63001C65B1 /* InteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */; };
@@ -332,6 +334,8 @@
 		FC819A242B77E8A60041F036 /* CustomTabBar3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar3.swift; sourceTree = "<group>"; };
 		FC834B262B79DA770046B2B5 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
 		FC834B282B79EDF10046B2B5 /* BoomerangCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomerangCardsView.swift; sourceTree = "<group>"; };
+		FC848FAB2B88A0A400A8F0A2 /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
+		FC848FAD2B88A34600A8F0A2 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		FC975C3E2B7142850017AF9B /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
 		FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGesture.swift; sourceTree = "<group>"; };
@@ -721,6 +725,8 @@
 				FC324EAC2B865AED003C064E /* FluidMusicButton.swift */,
 				FC324EAE2B865E74003C064E /* IncomingCall.swift */,
 				FC324EB02B865F24003C064E /* SlideWith3DYRotation.swift */,
+				FC848FAB2B88A0A400A8F0A2 /* AnimatedExampleView.swift */,
+				FC848FAD2B88A34600A8F0A2 /* CustomAlertView.swift */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
 			path = Others;
@@ -1131,6 +1137,7 @@
 				FCC257512B74D11C00DA813A /* BookInfoView.swift in Sources */,
 				FC67E6BF2B7A0F7D00D494DE /* CoverFlowView.swift in Sources */,
 				FC03AF522994A0DB009A5D4E /* CustomMapView.swift in Sources */,
+				FC848FAC2B88A0A400A8F0A2 /* AnimatedExampleView.swift in Sources */,
 				FC47A75E2AA4FEC900E3F150 /* CircleButton.swift in Sources */,
 				FC47A7612AA4FEC900E3F150 /* RecButton.swift in Sources */,
 				FC47A75F2AA4FEC900E3F150 /* TimerWithCombine.swift in Sources */,
@@ -1139,6 +1146,7 @@
 				FCC257532B74D12400DA813A /* BookInfoButtonsView.swift in Sources */,
 				FC209DCF2B401AA3006EA403 /* ParticleEmitterView.swift in Sources */,
 				FC991C0A2B7940D5001C65B1 /* CustomToggle.swift in Sources */,
+				FC848FAE2B88A34600A8F0A2 /* CustomAlertView.swift in Sources */,
 				FC03AF5E2994A150009A5D4E /* TinderSwipableCardView.swift in Sources */,
 				FCF6EFAC2B87772B00CB1010 /* TimerAttributes.swift in Sources */,
 				FC3842E12B81E3A400FB8870 /* Extensions.swift in Sources */,
