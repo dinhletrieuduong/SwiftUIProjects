@@ -52,7 +52,7 @@ struct AnimatedExampleView: View {
         RoundedRectangle(cornerRadius: 25)
             .fill(.black)
         // Added the matched geometry modifier to the view
-            .matchedGeometryEffect(id: rectangleId, in: expansionAnimation, properties: .x)
+            .matchedGeometryEffect(id: rectangleId, in: expansionAnimation, properties: .frame)
             .overlay {
                 Text("Hello Developer")
                     .font(.headline)

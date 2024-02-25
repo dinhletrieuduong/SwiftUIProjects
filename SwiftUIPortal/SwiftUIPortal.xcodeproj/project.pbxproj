@@ -135,6 +135,12 @@
 		FC834B2C2B79F0DB0046B2B5 /* SwiftAndTipsMacros in Frameworks */ = {isa = PBXBuildFile; productRef = FC834B2B2B79F0DB0046B2B5 /* SwiftAndTipsMacros */; };
 		FC848FAC2B88A0A400A8F0A2 /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FAB2B88A0A400A8F0A2 /* AnimatedExampleView.swift */; };
 		FC848FAE2B88A34600A8F0A2 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FAD2B88A34600A8F0A2 /* CustomAlertView.swift */; };
+		FC848FB02B89E7B000A8F0A2 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FAF2B89E7B000A8F0A2 /* SegmentedPicker.swift */; };
+		FC848FB42B8A02B300A8F0A2 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FB32B8A02B300A8F0A2 /* CustomSegmentControl.swift */; };
+		FC848FB62B8A084300A8F0A2 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FB52B8A084300A8F0A2 /* CustomTextFieldView.swift */; };
+		FC848FB82B8A09A500A8F0A2 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FB72B8A09A500A8F0A2 /* CustomProgressView.swift */; };
+		FC848FBA2B8A4EC900A8F0A2 /* DropdownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FB92B8A4EC900A8F0A2 /* DropdownPickerView.swift */; };
+		FC848FBC2B8A4EFD00A8F0A2 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FBB2B8A4EFD00A8F0A2 /* CustomButton.swift */; };
 		FC975C3D2B713F3B0017AF9B /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */; };
 		FC975C3F2B7142850017AF9B /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3E2B7142850017AF9B /* QRCameraView.swift */; };
 		FC991C082B78CF63001C65B1 /* InteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */; };
@@ -336,6 +342,12 @@
 		FC834B282B79EDF10046B2B5 /* BoomerangCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomerangCardsView.swift; sourceTree = "<group>"; };
 		FC848FAB2B88A0A400A8F0A2 /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
 		FC848FAD2B88A34600A8F0A2 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		FC848FAF2B89E7B000A8F0A2 /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		FC848FB32B8A02B300A8F0A2 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
+		FC848FB52B8A084300A8F0A2 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
+		FC848FB72B8A09A500A8F0A2 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		FC848FB92B8A4EC900A8F0A2 /* DropdownPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownPickerView.swift; sourceTree = "<group>"; };
+		FC848FBB2B8A4EFD00A8F0A2 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		FC975C3E2B7142850017AF9B /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
 		FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGesture.swift; sourceTree = "<group>"; };
@@ -726,7 +738,13 @@
 				FC324EAE2B865E74003C064E /* IncomingCall.swift */,
 				FC324EB02B865F24003C064E /* SlideWith3DYRotation.swift */,
 				FC848FAB2B88A0A400A8F0A2 /* AnimatedExampleView.swift */,
+				FC848FAF2B89E7B000A8F0A2 /* SegmentedPicker.swift */,
 				FC848FAD2B88A34600A8F0A2 /* CustomAlertView.swift */,
+				FC848FB32B8A02B300A8F0A2 /* CustomSegmentControl.swift */,
+				FC848FB52B8A084300A8F0A2 /* CustomTextFieldView.swift */,
+				FC848FB72B8A09A500A8F0A2 /* CustomProgressView.swift */,
+				FC848FB92B8A4EC900A8F0A2 /* DropdownPickerView.swift */,
+				FC848FBB2B8A4EFD00A8F0A2 /* CustomButton.swift */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
 			path = Others;
@@ -1047,6 +1065,7 @@
 				FC0669502B5FD17800237F91 /* CustomToastView.swift in Sources */,
 				FCA81F812AA63073009C9881 /* IntroView.swift in Sources */,
 				EA9690D82974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift in Sources */,
+				FC848FBC2B8A4EFD00A8F0A2 /* CustomButton.swift in Sources */,
 				FC209DD12B401C6B006EA403 /* ParticleEffect.swift in Sources */,
 				FC47A7332AA355AD00E3F150 /* BaseNavigationView.swift in Sources */,
 				FC9F0D3D2B63B70B003379E5 /* ParallaxCarouselCard.swift in Sources */,
@@ -1055,6 +1074,7 @@
 				325DA0B32921E770005F2E23 /* ContentView.swift in Sources */,
 				FCC257572B74D13200DA813A /* TabSelectionView.swift in Sources */,
 				FC47A7302AA323FB00E3F150 /* TransactionsView.swift in Sources */,
+				FC848FB62B8A084300A8F0A2 /* CustomTextFieldView.swift in Sources */,
 				FCC2575B2B74D15200DA813A /* DiscussinListRowView.swift in Sources */,
 				FC47A7642AA4FEC900E3F150 /* NewYearAnim.swift in Sources */,
 				FCAA6A082B540B11004319D4 /* InfiniteCarouselView.swift in Sources */,
@@ -1064,7 +1084,10 @@
 				FC975C3D2B713F3B0017AF9B /* QRScannerView.swift in Sources */,
 				FC03AF4E2994A06B009A5D4E /* AuthView.swift in Sources */,
 				FC47A72E2AA323FB00E3F150 /* CardsScreen.swift in Sources */,
+				FC848FB82B8A09A500A8F0A2 /* CustomProgressView.swift in Sources */,
+				FC848FBA2B8A4EC900A8F0A2 /* DropdownPickerView.swift in Sources */,
 				FC3842F62B81E3B300FB8870 /* Course.swift in Sources */,
+				FC848FB02B89E7B000A8F0A2 /* SegmentedPicker.swift in Sources */,
 				FC47A7622AA4FEC900E3F150 /* likeButton.swift in Sources */,
 				FC3842F32B81E3B300FB8870 /* MenuRow.swift in Sources */,
 				FC03AF562994A11D009A5D4E /* Downloading+ProgessBar.swift in Sources */,
@@ -1085,6 +1108,7 @@
 				FC3843112B81E78C00FB8870 /* MetaballsView.swift in Sources */,
 				FC38430F2B81E6D300FB8870 /* ButtonExperiments.swift in Sources */,
 				FC47A7572AA4FEC900E3F150 /* PopularView.swift in Sources */,
+				FC848FB42B8A02B300A8F0A2 /* CustomSegmentControl.swift in Sources */,
 				FCE3CFFE2B5CEF480012E071 /* FacebookReactions.swift in Sources */,
 				FC47A7312AA323FB00E3F150 /* MoneyManagerContentView.swift in Sources */,
 				FC47A7392AA49AC900E3F150 /* CardCreationView.swift in Sources */,
