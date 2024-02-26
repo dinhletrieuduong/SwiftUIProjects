@@ -141,6 +141,9 @@
 		FC848FB82B8A09A500A8F0A2 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FB72B8A09A500A8F0A2 /* CustomProgressView.swift */; };
 		FC848FBA2B8A4EC900A8F0A2 /* DropdownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FB92B8A4EC900A8F0A2 /* DropdownPickerView.swift */; };
 		FC848FBC2B8A4EFD00A8F0A2 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FBB2B8A4EFD00A8F0A2 /* CustomButton.swift */; };
+		FC848FBE2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FBD2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift */; };
+		FC848FC02B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */; };
+		FC848FC22B8CA5C700A8F0A2 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = FC848FC12B8CA5C700A8F0A2 /* cards.json */; };
 		FC975C3D2B713F3B0017AF9B /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */; };
 		FC975C3F2B7142850017AF9B /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3E2B7142850017AF9B /* QRCameraView.swift */; };
 		FC991C082B78CF63001C65B1 /* InteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */; };
@@ -348,6 +351,9 @@
 		FC848FB72B8A09A500A8F0A2 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		FC848FB92B8A4EC900A8F0A2 /* DropdownPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownPickerView.swift; sourceTree = "<group>"; };
 		FC848FBB2B8A4EFD00A8F0A2 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FC848FBD2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarousalView.swift; sourceTree = "<group>"; };
+		FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptivePagingScrollView.swift; sourceTree = "<group>"; };
+		FC848FC12B8CA5C700A8F0A2 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
 		FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		FC975C3E2B7142850017AF9B /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
 		FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGesture.swift; sourceTree = "<group>"; };
@@ -745,6 +751,9 @@
 				FC848FB72B8A09A500A8F0A2 /* CustomProgressView.swift */,
 				FC848FB92B8A4EC900A8F0A2 /* DropdownPickerView.swift */,
 				FC848FBB2B8A4EFD00A8F0A2 /* CustomButton.swift */,
+				FC848FBD2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift */,
+				FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */,
+				FC848FC12B8CA5C700A8F0A2 /* cards.json */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
 			path = Others;
@@ -1005,6 +1014,7 @@
 				FC3842F82B81E3B300FB8870 /* Inter-Regular.ttf in Resources */,
 				FC3843062B81E48D00FB8870 /* Inter-Medium.ttf in Resources */,
 				FC3842DE2B81E3A400FB8870 /* shapes.riv in Resources */,
+				FC848FC22B8CA5C700A8F0A2 /* cards.json in Resources */,
 				FC7B68062B6E9708000EA816 /* piano.mp3 in Resources */,
 				FC3842F72B81E3B300FB8870 /* Poppins-Bold.ttf in Resources */,
 				FC3842DC2B81E3A400FB8870 /* check.riv in Resources */,
@@ -1037,6 +1047,7 @@
 				FC47A7652AA4FEC900E3F150 /* DownloadImageView.swift in Sources */,
 				FC324EAD2B865AED003C064E /* FluidMusicButton.swift in Sources */,
 				FC7B680E2B6EA58C000EA816 /* MorphingDragView.swift in Sources */,
+				FC848FBE2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift in Sources */,
 				FC47A7602AA4FEC900E3F150 /* ShapeAnimation.swift in Sources */,
 				FC47A75A2AA4FEC900E3F150 /* SpreadingAnim.swift in Sources */,
 				FC03AF542994A109009A5D4E /* CustomTimePickerView.swift in Sources */,
@@ -1045,6 +1056,7 @@
 				FC47A7702AA4FF0E00E3F150 /* Counter.swift in Sources */,
 				FC3842E42B81E3A400FB8870 /* HomeView.swift in Sources */,
 				FC9F0D412B64C6B9003379E5 /* AnimatedPageIndicator.swift in Sources */,
+				FC848FC02B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift in Sources */,
 				FC75F11D2B753C5600DCD219 /* CustomTabBar2.swift in Sources */,
 				FC47A72F2AA323FB00E3F150 /* CardList.swift in Sources */,
 				FC47A7632AA4FEC900E3F150 /* PathViews.swift in Sources */,
