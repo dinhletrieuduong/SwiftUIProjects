@@ -48,6 +48,7 @@
 		FC324EAD2B865AED003C064E /* FluidMusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC324EAC2B865AED003C064E /* FluidMusicButton.swift */; };
 		FC324EAF2B865E74003C064E /* IncomingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC324EAE2B865E74003C064E /* IncomingCall.swift */; };
 		FC324EB12B865F24003C064E /* SlideWith3DYRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC324EB02B865F24003C064E /* SlideWith3DYRotation.swift */; };
+		FC3406F22B9F01C5009A4610 /* StackedCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3406F12B9F01C5009A4610 /* StackedCardsView.swift */; };
 		FC3842C22B81E2D700FB8870 /* AnimatedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3842C12B81E2D700FB8870 /* AnimatedContentView.swift */; };
 		FC3842C42B81E2F500FB8870 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3842C32B81E2F500FB8870 /* SideMenu.swift */; };
 		FC3842C72B81E35600FB8870 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = FC3842C62B81E35600FB8870 /* RiveRuntime */; };
@@ -262,6 +263,7 @@
 		FC324EAE2B865E74003C064E /* IncomingCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCall.swift; sourceTree = "<group>"; };
 		FC324EB02B865F24003C064E /* SlideWith3DYRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideWith3DYRotation.swift; sourceTree = "<group>"; };
 		FC324EB22B866790003C064E /* localizationScript.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = localizationScript.py; sourceTree = "<group>"; };
+		FC3406F12B9F01C5009A4610 /* StackedCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedCardsView.swift; sourceTree = "<group>"; };
 		FC3842C12B81E2D700FB8870 /* AnimatedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedContentView.swift; sourceTree = "<group>"; };
 		FC3842C32B81E2F500FB8870 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		FC3842C82B81E35D00FB8870 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
@@ -753,6 +755,7 @@
 				FC848FBB2B8A4EFD00A8F0A2 /* CustomButton.swift */,
 				FC848FBD2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift */,
 				FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */,
+				FC3406F12B9F01C5009A4610 /* StackedCardsView.swift */,
 				FC848FC12B8CA5C700A8F0A2 /* cards.json */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
@@ -1055,6 +1058,7 @@
 				FC06694C2B5F8CE400237F91 /* CalmariaVisualEffectView.swift in Sources */,
 				FC47A7702AA4FF0E00E3F150 /* Counter.swift in Sources */,
 				FC3842E42B81E3A400FB8870 /* HomeView.swift in Sources */,
+				FC3406F22B9F01C5009A4610 /* StackedCardsView.swift in Sources */,
 				FC9F0D412B64C6B9003379E5 /* AnimatedPageIndicator.swift in Sources */,
 				FC848FC02B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift in Sources */,
 				FC75F11D2B753C5600DCD219 /* CustomTabBar2.swift in Sources */,

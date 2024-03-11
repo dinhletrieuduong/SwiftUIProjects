@@ -130,10 +130,6 @@ struct CardCreationView: View {
                             
                         }
                         
-                        logger.info("CHAY K NE 1")
-                        logger.error("CHAY K NE 2")
-                        logger.debug("CHAY K NE 3")
-                        
                         /// Limitting to 16 digits
                         /// Including with 3 spaces
                         cardNumber = String(cardNumber.prefix(19))

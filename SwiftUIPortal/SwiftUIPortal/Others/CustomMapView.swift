@@ -8,6 +8,26 @@
 import SwiftUI
 import MapKit
 
+enum MapTab: String, CaseIterable {
+    case people
+    case devices
+    case items
+    case me
+    
+    var symbol: String {
+        switch self {
+            case .people:
+                "figure.2.arms.open"
+            case .devices:
+                "macbook.and.iphone"
+            case .items:
+                "circle.grid.2x2.fill"
+            case .me:
+                "person.circle.fill"
+        }
+    }
+}
+
 struct CustomMapDemoView: View {
     @State private var camera: MapCameraPosition = .region(.init(center: .applePark, span: .initialSpan))
     
@@ -18,43 +38,77 @@ struct CustomMapDemoView: View {
     @State private var updateCamera: Bool = false
     @State private var displayTitle: Bool = false
     
+    @State private var showSheet: Bool = false
+    @State private var activeTab: MapTab = .devices
+    @State private var ignoreTabBar: Bool = false
+    
     var body: some View {
-        MapReader { proxy in
-            Map(position: $camera) {
-                Annotation(displayTitle ? annotationTitle : "", coordinate: coordinate) {
-                    DraggablePin(proxy: proxy, coordinate: $coordinate) { coordinate in
-                        findCoordinateName()
-                        
-                        guard updateCamera else { return }
-                        let newRegion = MKCoordinateRegion(center: coordinate, span: mapSpan)
-                        
-                        withAnimation(.smooth) {
-                            camera = .region(newRegion)
+        ZStack(alignment: .bottom) {
+            MapReader { proxy in
+                Map(position: $camera) {
+                    Annotation(displayTitle ? annotationTitle : "", coordinate: coordinate) {
+                        DraggablePin(proxy: proxy, coordinate: $coordinate) { coordinate in
+                            findCoordinateName()
+                            
+                            guard updateCamera else { return }
+                            let newRegion = MKCoordinateRegion(center: coordinate, span: mapSpan)
+                            
+                            withAnimation(.smooth) {
+                                camera = .region(newRegion)
+                            }
                         }
                     }
                 }
-            }
-            .onMapCameraChange(frequency: .continuous) { ctx in
-                mapSpan = ctx.region.span
-            }
-            .safeAreaInset(edge: .bottom, content: {
-                HStack(spacing: 0) {
-                    Toggle("Update Camera", isOn: $updateCamera)
-                        .frame(width: 180)
-                    
-                    Spacer(minLength: 0)
-                    
-                    Toggle("Display Title", isOn: $displayTitle)
-                        .frame(width: 150)
+                .onMapCameraChange(frequency: .continuous) { ctx in
+                    mapSpan = ctx.region.span
                 }
-                .textScale(.secondary)
-                .padding(15)
-                .background(.ultraThinMaterial)
-            })
-            .onAppear {
-                findCoordinateName()
+                .safeAreaInset(edge: .bottom, content: {
+                    HStack(spacing: 0) {
+                        Toggle("Update Camera", isOn: $updateCamera)
+                            .frame(width: 180)
+                        
+                        Spacer(minLength: 0)
+                        
+                        Toggle("Display Title", isOn: $displayTitle)
+                            .frame(width: 150)
+                    }
+                    .textScale(.secondary)
+                    .padding(15)
+                    .background(.ultraThinMaterial)
+                })
+                .onAppear {
+                    findCoordinateName()
+                }
             }
+            
+            TabBar()
+                .frame(height: 49)
+                .background(.regularMaterial)
         }
+        .task {
+            showSheet = true
+        }
+        .sheet(isPresented: $showSheet, content: {
+            ScrollView(.vertical) {
+                VStack(alignment: .leading, spacing: 10) {
+                    Text(activeTab.rawValue)
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                    
+                    Toggle("Ignore Tab Bar", isOn: $ignoreTabBar)
+                }
+                .padding()
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .presentationDetents([.height(60), .medium, .large])
+            .presentationCornerRadius(25)
+            .presentationBackground(.regularMaterial)
+            .presentationBackgroundInteraction(.enabled(upThrough: .large))
+            .interactiveDismissDisabled()
+            .bottomMaskForSheet(mask: !ignoreTabBar)
+            
+        })
+        
     }
     
     private func findCoordinateName() {
@@ -68,6 +122,28 @@ struct CustomMapDemoView: View {
         }
     }
     
+    @ViewBuilder
+    func TabBar() -> some View {
+        HStack(spacing: 0) {
+            ForEach(MapTab.allCases, id: \.rawValue) { tab in
+                Button(action: {
+                    activeTab = tab
+                }, label: {
+                    VStack(spacing: 2) {
+                        Image(systemName: tab.symbol)
+                            .font(.title2)
+                        
+                        Text(tab.rawValue)
+                            .font(.caption2)
+                    }
+                    .foregroundStyle(activeTab == tab ? Color.accentColor : .gray)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .contentShape(.rect)
+                })
+                .buttonStyle(.plain)
+            }
+        }
+    }
 }
 
 struct DraggablePin: View {
@@ -116,12 +192,12 @@ struct DraggablePin: View {
                     isActive = $0
                 })
                 .simultaneously(with:
-                    DragGesture(minimumDistance: 0)
-                        .onChanged({ value in
-                            if isActive {
-                                translation = value.translation
-                            }
-                        })
+                                    DragGesture(minimumDistance: 0)
+                    .onChanged({ value in
+                        if isActive {
+                            translation = value.translation
+                        }
+                    })
                         .onEnded({ value in
                             if isActive {
                                 isActive = false
@@ -136,20 +212,58 @@ struct DraggablePin: View {
     CustomMapDemoView()
 })
 
-struct CustomMapView: View {
-    @State var region: MKCoordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 49.246292, longitude: -123.116226), span: .init(latitudeDelta: 0.1, longitudeDelta: 0.1))
+private extension View {
+    @ViewBuilder
+    func bottomMaskForSheet(mask: Bool = true, _ height: CGFloat = 49) -> some View {
+        self
+            .background(SheetRootViewFinder(mask: mask, height: height))
+    }
+}
+
+private struct SheetRootViewFinder: UIViewRepresentable {
+    var mask: Bool
+    var height: CGFloat
     
-    var markerPlaces = [
-        Marker(location: "Vancouver Aquarium", coordinate: .init(latitude: 49.300796, longitude: -123.130929)),
-        .init(location: "Space Centre", coordinate: .init(latitude: 49.276224, longitude: -123.144443))
-    ]
-    var body: some View {
-        VStack {
-            Map(coordinateRegion: $region, annotationItems: markerPlaces) { place in
-                MapMarker(coordinate: place.coordinate, tint: .red)
+    func makeUIView(context: Context) -> UIView {
+        return .init()
+    }
+    
+    func updateUIView(_ uiView: UIView, context: Context) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+//            guard !context.coordinator.isMarked else { return }
+            
+            if let rootView = uiView.viewBeforeWindow, let window = rootView.window {
+                let safeArea = window.safeAreaInsets
+                rootView.frame = .init(origin: .zero, size: .init(width: window.frame.width, height: window.frame.height - (mask ? (height + safeArea.bottom): 0)))
+                
+                rootView.clipsToBounds = true
+                for view in rootView.subviews {
+                    /// Removing Shadow
+                    view.layer.shadowColor = UIColor.clear.cgColor
+                    
+                    if view.layer.animationKeys() != nil {
+                        if let cornerRadiusView = view.allSubviews.first(where: { $0.layer.animationKeys()?.contains("cornerRadius") ?? false }) {
+                            cornerRadiusView.layer.maskedCorners = []
+                        }
+                    }
+                }
+                
             }
-            .edgesIgnoringSafeArea(.all)
         }
+    }
+    
+}
+
+fileprivate extension UIView {
+    var viewBeforeWindow: UIView? {
+        if let superview, superview is UIWindow {
+            return self
+        }
+        return superview?.viewBeforeWindow
+    }
+    
+    var allSubviews: [UIView] {
+        return subviews.flatMap { [$0] + $0.subviews}
     }
 }
 

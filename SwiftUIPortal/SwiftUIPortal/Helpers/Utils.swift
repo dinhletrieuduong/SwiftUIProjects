@@ -6,6 +6,17 @@
 //
 
 import Foundation
-import OSLog
 
-let logger = Logger(subsystem: "dev.dylan.swiftUIPortal", category: "App")
+extension Decodable {
+    static func decode(data: Data?, decoder: JSONDecoder = JSONDecoder()) throws -> Self {
+        try decoder.decode(Self.self, from: data ?? Data())
+    }
+    
+}
+
+extension Data {
+    func decodedObject<T: Decodable>(decoder: JSONDecoder = JSONDecoder()) throws -> T {
+        try decoder.decode(T.self, from: self)
+    }
+}
+// let car: Car = try? data.decodedObject()
