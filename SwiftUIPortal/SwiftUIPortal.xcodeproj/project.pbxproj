@@ -121,6 +121,7 @@
 		FC67E6BD2B7A00CD00D494DE /* ProfessionalSideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6BC2B7A00CD00D494DE /* ProfessionalSideMenuView.swift */; };
 		FC67E6BF2B7A0F7D00D494DE /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6BE2B7A0F7D00D494DE /* CoverFlowView.swift */; };
 		FC67E6C12B7A17A900D494DE /* GitHubAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6C02B7A17A900D494DE /* GitHubAnimationView.swift */; };
+		FC6E48DE2BB03CD2008AAEE6 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = FC6E48DD2BB03CD2008AAEE6 /* SplineRuntime */; };
 		FC75F11D2B753C5600DCD219 /* CustomTabBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75F11C2B753C5600DCD219 /* CustomTabBar2.swift */; };
 		FC7B67FF2B6E88DF000EA816 /* FloatingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B67FE2B6E88DF000EA816 /* FloatingButtonView.swift */; };
 		FC7B68012B6E89CF000EA816 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B68002B6E89CF000EA816 /* ShimmerView.swift */; };
@@ -145,6 +146,7 @@
 		FC848FBE2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FBD2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift */; };
 		FC848FC02B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */; };
 		FC848FC22B8CA5C700A8F0A2 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = FC848FC12B8CA5C700A8F0A2 /* cards.json */; };
+		FC8D0CC42BDF402E00041EC9 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */; };
 		FC975C3D2B713F3B0017AF9B /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */; };
 		FC975C3F2B7142850017AF9B /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3E2B7142850017AF9B /* QRCameraView.swift */; };
 		FC991C082B78CF63001C65B1 /* InteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */; };
@@ -356,6 +358,7 @@
 		FC848FBD2B8BB19C00A8F0A2 /* InfiniteCarousalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarousalView.swift; sourceTree = "<group>"; };
 		FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptivePagingScrollView.swift; sourceTree = "<group>"; };
 		FC848FC12B8CA5C700A8F0A2 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
+		FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 		FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		FC975C3E2B7142850017AF9B /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
 		FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGesture.swift; sourceTree = "<group>"; };
@@ -412,6 +415,7 @@
 			files = (
 				FC834B2C2B79F0DB0046B2B5 /* SwiftAndTipsMacros in Frameworks */,
 				FC38430D2B81E55200FB8870 /* SwiftUICharts in Frameworks */,
+				FC6E48DE2BB03CD2008AAEE6 /* SplineRuntime in Frameworks */,
 				FC3842C72B81E35600FB8870 /* RiveRuntime in Frameworks */,
 				FC38430A2B81E4FA00FB8870 /* CameraView in Frameworks */,
 			);
@@ -757,6 +761,7 @@
 				FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */,
 				FC3406F12B9F01C5009A4610 /* StackedCardsView.swift */,
 				FC848FC12B8CA5C700A8F0A2 /* cards.json */,
+				FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
 			path = Others;
@@ -937,6 +942,7 @@
 				FC3842C62B81E35600FB8870 /* RiveRuntime */,
 				FC3843092B81E4FA00FB8870 /* CameraView */,
 				FC38430C2B81E55200FB8870 /* SwiftUICharts */,
+				FC6E48DD2BB03CD2008AAEE6 /* SplineRuntime */,
 			);
 			productName = SwiftUIPortal;
 			productReference = 325DA0AD2921E770005F2E23 /* SwiftUIPortal.app */;
@@ -991,6 +997,7 @@
 				FC3842C52B81E35600FB8870 /* XCRemoteSwiftPackageReference "rive-ios" */,
 				FC3843082B81E4FA00FB8870 /* XCRemoteSwiftPackageReference "CameraView" */,
 				FC38430B2B81E55200FB8870 /* XCRemoteSwiftPackageReference "ChartView" */,
+				FC6E48DC2BB03CD2008AAEE6 /* XCRemoteSwiftPackageReference "spline-ios" */,
 			);
 			productRefGroup = 325DA0AE2921E770005F2E23 /* Products */;
 			projectDirPath = "";
@@ -1059,6 +1066,7 @@
 				FC47A7702AA4FF0E00E3F150 /* Counter.swift in Sources */,
 				FC3842E42B81E3A400FB8870 /* HomeView.swift in Sources */,
 				FC3406F22B9F01C5009A4610 /* StackedCardsView.swift in Sources */,
+				FC8D0CC42BDF402E00041EC9 /* CustomTransition.swift in Sources */,
 				FC9F0D412B64C6B9003379E5 /* AnimatedPageIndicator.swift in Sources */,
 				FC848FC02B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift in Sources */,
 				FC75F11D2B753C5600DCD219 /* CustomTabBar2.swift in Sources */,
@@ -1530,6 +1538,14 @@
 				minimumVersion = 1.5.5;
 			};
 		};
+		FC6E48DC2BB03CD2008AAEE6 /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		FC834B2A2B79F0DB0046B2B5 /* XCRemoteSwiftPackageReference "SwiftAndTipsMacros" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pitt500/SwiftAndTipsMacros.git";
@@ -1555,6 +1571,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC38430B2B81E55200FB8870 /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
+		};
+		FC6E48DD2BB03CD2008AAEE6 /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC6E48DC2BB03CD2008AAEE6 /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
 		};
 		FC834B2B2B79F0DB0046B2B5 /* SwiftAndTipsMacros */ = {
 			isa = XCSwiftPackageProductDependency;
