@@ -147,6 +147,7 @@
 		FC848FC02B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */; };
 		FC848FC22B8CA5C700A8F0A2 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = FC848FC12B8CA5C700A8F0A2 /* cards.json */; };
 		FC8D0CC42BDF402E00041EC9 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */; };
+		FC8D0CC62BDF474700041EC9 /* CustomRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */; };
 		FC975C3D2B713F3B0017AF9B /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */; };
 		FC975C3F2B7142850017AF9B /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3E2B7142850017AF9B /* QRCameraView.swift */; };
 		FC991C082B78CF63001C65B1 /* InteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */; };
@@ -359,6 +360,7 @@
 		FC848FBF2B8CA41F00A8F0A2 /* AdaptivePagingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptivePagingScrollView.swift; sourceTree = "<group>"; };
 		FC848FC12B8CA5C700A8F0A2 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
 		FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
+		FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRangeSlider.swift; sourceTree = "<group>"; };
 		FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		FC975C3E2B7142850017AF9B /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
 		FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGesture.swift; sourceTree = "<group>"; };
@@ -762,6 +764,7 @@
 				FC3406F12B9F01C5009A4610 /* StackedCardsView.swift */,
 				FC848FC12B8CA5C700A8F0A2 /* cards.json */,
 				FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */,
+				FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
 			path = Others;
@@ -1142,6 +1145,7 @@
 				FC03AF5C2994A142009A5D4E /* SplitTheBillView.swift in Sources */,
 				FC834B272B79DA770046B2B5 /* ThemeChangeView.swift in Sources */,
 				FCF6EFB12B8778BB00CB1010 /* LiveActivityManager.swift in Sources */,
+				FC8D0CC62BDF474700041EC9 /* CustomRangeSlider.swift in Sources */,
 				FC47A73B2AA4FD0900E3F150 /* Utils.swift in Sources */,
 				FC3843022B81E48D00FB8870 /* Chart.swift in Sources */,
 				FC7B680A2B6EA095000EA816 /* TypewriterTextView.swift in Sources */,
