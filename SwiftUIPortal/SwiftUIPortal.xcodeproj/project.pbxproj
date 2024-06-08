@@ -179,6 +179,7 @@
 		FCC257612B75333500DA813A /* CustomTabBarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC257602B75333500DA813A /* CustomTabBarAnimation.swift */; };
 		FCC257642B7535C400DA813A /*  StunningPodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC257632B7535C400DA813A /*  StunningPodcastView.swift */; };
 		FCD93B6A2AA2588000B07AFE /* SequenceAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD93B692AA2588000B07AFE /* SequenceAnimationHome.swift */; };
+		FCE069512C14CA3B0007E30C /* GlitchTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE069502C14CA3B0007E30C /* GlitchTextView.swift */; };
 		FCE3CFFC2B5CEAA90012E071 /* GradientCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */; };
 		FCE3CFFE2B5CEF480012E071 /* FacebookReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */; };
 		FCE3D0022B5D722A0012E071 /* ParallaxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */; };
@@ -196,6 +197,7 @@
 		FCF6EFAF2B87779A00CB1010 /* WidgetCircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6EFAE2B87779A00CB1010 /* WidgetCircleTimerView.swift */; };
 		FCF6EFB12B8778BB00CB1010 /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6EFB02B8778BB00CB1010 /* LiveActivityManager.swift */; };
 		FCF6EFB22B8778BF00CB1010 /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6EFB02B8778BB00CB1010 /* LiveActivityManager.swift */; };
+		FCFE184E2BDF904F00CE7402 /* CustomLimitedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE184D2BDF904F00CE7402 /* CustomLimitedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -392,6 +394,7 @@
 		FCC257602B75333500DA813A /* CustomTabBarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarAnimation.swift; sourceTree = "<group>"; };
 		FCC257632B7535C400DA813A /*  StunningPodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " StunningPodcastView.swift"; sourceTree = "<group>"; };
 		FCD93B692AA2588000B07AFE /* SequenceAnimationHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceAnimationHome.swift; sourceTree = "<group>"; };
+		FCE069502C14CA3B0007E30C /* GlitchTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchTextView.swift; sourceTree = "<group>"; };
 		FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCardAnimation.swift; sourceTree = "<group>"; };
 		FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookReactions.swift; sourceTree = "<group>"; };
 		FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCardView.swift; sourceTree = "<group>"; };
@@ -408,6 +411,7 @@
 		FCF6EFAB2B87772B00CB1010 /* TimerAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAttributes.swift; sourceTree = "<group>"; };
 		FCF6EFAE2B87779A00CB1010 /* WidgetCircleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCircleTimerView.swift; sourceTree = "<group>"; };
 		FCF6EFB02B8778BB00CB1010 /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
+		FCFE184D2BDF904F00CE7402 /* CustomLimitedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLimitedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -765,6 +769,8 @@
 				FC848FC12B8CA5C700A8F0A2 /* cards.json */,
 				FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */,
 				FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */,
+				FCE069502C14CA3B0007E30C /* GlitchTextView.swift */,
+				FCFE184D2BDF904F00CE7402 /* CustomLimitedTextField.swift */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
 			path = Others;
@@ -1076,6 +1082,7 @@
 				FC47A72F2AA323FB00E3F150 /* CardList.swift in Sources */,
 				FC47A7632AA4FEC900E3F150 /* PathViews.swift in Sources */,
 				FC67E6C12B7A17A900D494DE /* GitHubAnimationView.swift in Sources */,
+				FCE069512C14CA3B0007E30C /* GlitchTextView.swift in Sources */,
 				FCE3CFFC2B5CEAA90012E071 /* GradientCardAnimation.swift in Sources */,
 				FC819A252B77E8A60041F036 /* CustomTabBar3.swift in Sources */,
 				FCC2574C2B73DB4300DA813A /* CustomLayoutTagView.swift in Sources */,
@@ -1122,6 +1129,7 @@
 				FC47A75B2AA4FEC900E3F150 /* Switch.swift in Sources */,
 				FC47A72D2AA323FB00E3F150 /* CardView.swift in Sources */,
 				EA9690EA297530D6008AA5E7 /* TypeChipList.swift in Sources */,
+				FCFE184E2BDF904F00CE7402 /* CustomLimitedTextField.swift in Sources */,
 				FC1BD8462B62B8AE006EAF40 /* AnimatedSFTabView.swift in Sources */,
 				FC0669492B5F8BDB00237F91 /* CalmariaView.swift in Sources */,
 				FC47A7532AA4FEC900E3F150 /* OpacityAnimation.swift in Sources */,
