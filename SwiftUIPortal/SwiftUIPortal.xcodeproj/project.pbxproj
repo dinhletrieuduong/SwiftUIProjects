@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -44,14 +44,6 @@
 		FC209DCC2B401567006EA403 /* SwipeToHideNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DCB2B401567006EA403 /* SwipeToHideNavBar.swift */; };
 		FC209DCF2B401AA3006EA403 /* ParticleEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DCE2B401AA3006EA403 /* ParticleEmitterView.swift */; };
 		FC209DD12B401C6B006EA403 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DD02B401C6B006EA403 /* ParticleEffect.swift */; };
-		FC2A1EE62C3FEE1000019085 /* HoleDownButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A1EE52C3FEE0C00019085 /* HoleDownButtonView.swift */; };
-		FC2A1EF02C44371600019085 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6EF932B8776E200CB1010 /* WidgetKit.framework */; };
-		FC2A1EF12C44371600019085 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6EF952B8776E200CB1010 /* SwiftUI.framework */; };
-		FC2A1EF42C44371600019085 /* DummyControlBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A1EF32C44371600019085 /* DummyControlBundle.swift */; };
-		FC2A1EF62C44371600019085 /* DummyControlControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A1EF52C44371600019085 /* DummyControlControl.swift */; };
-		FC2A1EF82C44371600019085 /* DummyControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A1EF72C44371600019085 /* DummyControl.swift */; };
-		FC2A1EFA2C44371800019085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2A1EF92C44371800019085 /* Assets.xcassets */; };
-		FC2A1EFE2C44371800019085 /* DummyControlExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FC2A1EEF2C44371600019085 /* DummyControlExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FC2AADC02B72741C00586834 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2AADBF2B72741C00586834 /* PasscodeView.swift */; };
 		FC324EAD2B865AED003C064E /* FluidMusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC324EAC2B865AED003C064E /* FluidMusicButton.swift */; };
 		FC324EAF2B865E74003C064E /* IncomingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC324EAE2B865E74003C064E /* IncomingCall.swift */; };
@@ -131,7 +123,6 @@
 		FC67E6C12B7A17A900D494DE /* GitHubAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6C02B7A17A900D494DE /* GitHubAnimationView.swift */; };
 		FC6E48DE2BB03CD2008AAEE6 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = FC6E48DD2BB03CD2008AAEE6 /* SplineRuntime */; };
 		FC75F11D2B753C5600DCD219 /* CustomTabBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75F11C2B753C5600DCD219 /* CustomTabBar2.swift */; };
-		FC7949382C2AAF2A001B25A0 /* ColorMix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7949372C2AAF24001B25A0 /* ColorMix.swift */; };
 		FC7B67FF2B6E88DF000EA816 /* FloatingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B67FE2B6E88DF000EA816 /* FloatingButtonView.swift */; };
 		FC7B68012B6E89CF000EA816 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B68002B6E89CF000EA816 /* ShimmerView.swift */; };
 		FC7B68042B6E96C7000EA816 /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B68032B6E96C7000EA816 /* MusicPlayerView.swift */; };
@@ -157,7 +148,6 @@
 		FC848FC22B8CA5C700A8F0A2 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = FC848FC12B8CA5C700A8F0A2 /* cards.json */; };
 		FC8D0CC42BDF402E00041EC9 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */; };
 		FC8D0CC62BDF474700041EC9 /* CustomRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */; };
-		FC8D0CC82BDF59D600041EC9 /* InstagramPinch2Zoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D0CC72BDF59D600041EC9 /* InstagramPinch2Zoom.swift */; };
 		FC975C3D2B713F3B0017AF9B /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */; };
 		FC975C3F2B7142850017AF9B /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3E2B7142850017AF9B /* QRCameraView.swift */; };
 		FC991C082B78CF63001C65B1 /* InteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */; };
@@ -193,7 +183,6 @@
 		FCE3CFFC2B5CEAA90012E071 /* GradientCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */; };
 		FCE3CFFE2B5CEF480012E071 /* FacebookReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */; };
 		FCE3D0022B5D722A0012E071 /* ParallaxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */; };
-		FCF256682C4F988B00967275 /* LongPressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF256672C4F988400967275 /* LongPressButton.swift */; };
 		FCF6EF8D2B8776C600CB1010 /* CircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6EF8C2B8776C600CB1010 /* CircleTimerView.swift */; };
 		FCF6EF942B8776E200CB1010 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6EF932B8776E200CB1010 /* WidgetKit.framework */; };
 		FCF6EF962B8776E200CB1010 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6EF952B8776E200CB1010 /* SwiftUI.framework */; };
@@ -212,13 +201,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC2A1EFC2C44371800019085 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 325DA0A52921E770005F2E23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC2A1EEE2C44371600019085;
-			remoteInfo = DummyControlExtension;
-		};
 		FCF6EFA32B8776E300CB1010 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 325DA0A52921E770005F2E23 /* Project object */;
@@ -236,7 +218,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				FCF6EFA52B8776E300CB1010 /* TimerWidgetExtension.appex in Embed Foundation Extensions */,
-				FC2A1EFE2C44371800019085 /* DummyControlExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,13 +263,6 @@
 		FC209DCB2B401567006EA403 /* SwipeToHideNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToHideNavBar.swift; sourceTree = "<group>"; };
 		FC209DCE2B401AA3006EA403 /* ParticleEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEmitterView.swift; sourceTree = "<group>"; };
 		FC209DD02B401C6B006EA403 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
-		FC2A1EE52C3FEE0C00019085 /* HoleDownButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleDownButtonView.swift; sourceTree = "<group>"; };
-		FC2A1EEF2C44371600019085 /* DummyControlExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DummyControlExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC2A1EF32C44371600019085 /* DummyControlBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyControlBundle.swift; sourceTree = "<group>"; };
-		FC2A1EF52C44371600019085 /* DummyControlControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyControlControl.swift; sourceTree = "<group>"; };
-		FC2A1EF72C44371600019085 /* DummyControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyControl.swift; sourceTree = "<group>"; };
-		FC2A1EF92C44371800019085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC2A1EFB2C44371800019085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC2AADBF2B72741C00586834 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		FC324EAC2B865AED003C064E /* FluidMusicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMusicButton.swift; sourceTree = "<group>"; };
 		FC324EAE2B865E74003C064E /* IncomingCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCall.swift; sourceTree = "<group>"; };
@@ -365,7 +339,6 @@
 		FC67E6BE2B7A0F7D00D494DE /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
 		FC67E6C02B7A17A900D494DE /* GitHubAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAnimationView.swift; sourceTree = "<group>"; };
 		FC75F11C2B753C5600DCD219 /* CustomTabBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar2.swift; sourceTree = "<group>"; };
-		FC7949372C2AAF24001B25A0 /* ColorMix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMix.swift; sourceTree = "<group>"; };
 		FC7B67FE2B6E88DF000EA816 /* FloatingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonView.swift; sourceTree = "<group>"; };
 		FC7B68002B6E89CF000EA816 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		FC7B68032B6E96C7000EA816 /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
@@ -390,7 +363,6 @@
 		FC848FC12B8CA5C700A8F0A2 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
 		FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 		FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRangeSlider.swift; sourceTree = "<group>"; };
-		FC8D0CC72BDF59D600041EC9 /* InstagramPinch2Zoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPinch2Zoom.swift; sourceTree = "<group>"; };
 		FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		FC975C3E2B7142850017AF9B /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
 		FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGesture.swift; sourceTree = "<group>"; };
@@ -426,7 +398,6 @@
 		FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCardAnimation.swift; sourceTree = "<group>"; };
 		FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookReactions.swift; sourceTree = "<group>"; };
 		FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCardView.swift; sourceTree = "<group>"; };
-		FCF256672C4F988400967275 /* LongPressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButton.swift; sourceTree = "<group>"; };
 		FCF6EF8C2B8776C600CB1010 /* CircleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimerView.swift; sourceTree = "<group>"; };
 		FCF6EF922B8776E200CB1010 /* TimerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF6EF932B8776E200CB1010 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -443,28 +414,6 @@
 		FCFE184D2BDF904F00CE7402 /* CustomLimitedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLimitedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FC2A1F072C44382000019085 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ContentWidget.swift,
-				SharedManager.swift,
-			);
-			target = 325DA0AC2921E770005F2E23 /* SwiftUIPortal */;
-		};
-		FC2A1F082C44382000019085 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				SharedManager.swift,
-			);
-			target = FC2A1EEE2C44371600019085 /* DummyControlExtension */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FC2A1F022C4437EC00019085 /* ContentWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FC2A1F072C44382000019085 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, FC2A1F082C44382000019085 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ContentWidget; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		325DA0AA2921E770005F2E23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -475,15 +424,6 @@
 				FC6E48DE2BB03CD2008AAEE6 /* SplineRuntime in Frameworks */,
 				FC3842C72B81E35600FB8870 /* RiveRuntime in Frameworks */,
 				FC38430A2B81E4FA00FB8870 /* CameraView in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2A1EEC2C44371600019085 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC2A1EF12C44371600019085 /* SwiftUI.framework in Frameworks */,
-				FC2A1EF02C44371600019085 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +453,6 @@
 			children = (
 				325DA0AF2921E770005F2E23 /* SwiftUIPortal */,
 				FCF6EF972B8776E200CB1010 /* TimerWidget */,
-				FC2A1EF22C44371600019085 /* DummyControl */,
 				325DA0AE2921E770005F2E23 /* Products */,
 				FC834B2D2B79F1EF0046B2B5 /* Frameworks */,
 			);
@@ -524,7 +463,6 @@
 			children = (
 				325DA0AD2921E770005F2E23 /* SwiftUIPortal.app */,
 				FCF6EF922B8776E200CB1010 /* TimerWidgetExtension.appex */,
-				FC2A1EEF2C44371600019085 /* DummyControlExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -617,18 +555,6 @@
 				FCB4428C2B41160E00BBA560 /* ParticleModel.swift */,
 			);
 			path = ParticleEmitter;
-			sourceTree = "<group>";
-		};
-		FC2A1EF22C44371600019085 /* DummyControl */ = {
-			isa = PBXGroup;
-			children = (
-				FC2A1EF32C44371600019085 /* DummyControlBundle.swift */,
-				FC2A1EF52C44371600019085 /* DummyControlControl.swift */,
-				FC2A1EF72C44371600019085 /* DummyControl.swift */,
-				FC2A1EF92C44371800019085 /* Assets.xcassets */,
-				FC2A1EFB2C44371800019085 /* Info.plist */,
-			);
-			path = DummyControl;
 			sourceTree = "<group>";
 		};
 		FC3842C02B81E2B600FB8870 /* Animated */ = {
@@ -750,7 +676,6 @@
 		FC47A73C2AA4FEB600E3F150 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				FC2A1F022C4437EC00019085 /* ContentWidget */,
 				FC3842F92B81E46D00FB8870 /* TranslucentBackground */,
 				FC3842C02B81E2B600FB8870 /* Animated */,
 				FCC257622B7535BB00DA813A /*  StunningPodcast */,
@@ -845,11 +770,7 @@
 				FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */,
 				FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */,
 				FCE069502C14CA3B0007E30C /* GlitchTextView.swift */,
-				FC8D0CC72BDF59D600041EC9 /* InstagramPinch2Zoom.swift */,
 				FCFE184D2BDF904F00CE7402 /* CustomLimitedTextField.swift */,
-				FC7949372C2AAF24001B25A0 /* ColorMix.swift */,
-				FC2A1EE52C3FEE0C00019085 /* HoleDownButtonView.swift */,
-				FCF256672C4F988400967275 /* LongPressButton.swift */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
 			path = Others;
@@ -1023,7 +944,6 @@
 			);
 			dependencies = (
 				FCF6EFA42B8776E300CB1010 /* PBXTargetDependency */,
-				FC2A1EFD2C44371800019085 /* PBXTargetDependency */,
 			);
 			name = SwiftUIPortal;
 			packageProductDependencies = (
@@ -1036,23 +956,6 @@
 			productName = SwiftUIPortal;
 			productReference = 325DA0AD2921E770005F2E23 /* SwiftUIPortal.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FC2A1EEE2C44371600019085 /* DummyControlExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC2A1F012C44371800019085 /* Build configuration list for PBXNativeTarget "DummyControlExtension" */;
-			buildPhases = (
-				FC2A1EEB2C44371600019085 /* Sources */,
-				FC2A1EEC2C44371600019085 /* Frameworks */,
-				FC2A1EED2C44371600019085 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DummyControlExtension;
-			productName = DummyControlExtension;
-			productReference = FC2A1EEF2C44371600019085 /* DummyControlExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 		FCF6EF912B8776E200CB1010 /* TimerWidgetExtension */ = {
 			isa = PBXNativeTarget;
@@ -1078,14 +981,11 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					325DA0AC2921E770005F2E23 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					FC2A1EEE2C44371600019085 = {
-						CreatedOnToolsVersion = 16.0;
 					};
 					FCF6EF912B8776E200CB1010 = {
 						CreatedOnToolsVersion = 15.2;
@@ -1114,7 +1014,6 @@
 			targets = (
 				325DA0AC2921E770005F2E23 /* SwiftUIPortal */,
 				FCF6EF912B8776E200CB1010 /* TimerWidgetExtension */,
-				FC2A1EEE2C44371600019085 /* DummyControlExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -1141,14 +1040,6 @@
 				FC3842DD2B81E3A400FB8870 /* menu_button.riv in Resources */,
 				325DA0B52921E772005F2E23 /* Assets.xcassets in Resources */,
 				FC3842E02B81E3A400FB8870 /* icons.riv in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2A1EED2C44371600019085 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC2A1EFA2C44371800019085 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1208,7 +1099,6 @@
 				FC0669502B5FD17800237F91 /* CustomToastView.swift in Sources */,
 				FCA81F812AA63073009C9881 /* IntroView.swift in Sources */,
 				EA9690D82974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift in Sources */,
-				FC8D0CC82BDF59D600041EC9 /* InstagramPinch2Zoom.swift in Sources */,
 				FC848FBC2B8A4EFD00A8F0A2 /* CustomButton.swift in Sources */,
 				FC209DD12B401C6B006EA403 /* ParticleEffect.swift in Sources */,
 				FC47A7332AA355AD00E3F150 /* BaseNavigationView.swift in Sources */,
@@ -1221,7 +1111,6 @@
 				FC848FB62B8A084300A8F0A2 /* CustomTextFieldView.swift in Sources */,
 				FCC2575B2B74D15200DA813A /* DiscussinListRowView.swift in Sources */,
 				FC47A7642AA4FEC900E3F150 /* NewYearAnim.swift in Sources */,
-				FC7949382C2AAF2A001B25A0 /* ColorMix.swift in Sources */,
 				FCAA6A082B540B11004319D4 /* InfiniteCarouselView.swift in Sources */,
 				FC3842C92B81E35D00FB8870 /* TabBar.swift in Sources */,
 				3254EC8D29247BDD009308B9 /* NetworkMonitor.swift in Sources */,
@@ -1259,7 +1148,6 @@
 				FC47A7312AA323FB00E3F150 /* MoneyManagerContentView.swift in Sources */,
 				FC47A7392AA49AC900E3F150 /* CardCreationView.swift in Sources */,
 				FC47A72C2AA323FB00E3F150 /* TransactionRow.swift in Sources */,
-				FCF256682C4F988B00967275 /* LongPressButton.swift in Sources */,
 				FC3842F12B81E3B300FB8870 /* VCard.swift in Sources */,
 				FCAF179C2AAD8AB100CBB953 /* Router.swift in Sources */,
 				FC03AF5C2994A142009A5D4E /* SplitTheBillView.swift in Sources */,
@@ -1272,7 +1160,6 @@
 				FC67E6BD2B7A00CD00D494DE /* ProfessionalSideMenuView.swift in Sources */,
 				325DA0BF2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift in Sources */,
 				EA9690E629752AD7008AA5E7 /* PokemonView.swift in Sources */,
-				FC2A1EE62C3FEE1000019085 /* HoleDownButtonView.swift in Sources */,
 				FCAC500A2B6A2FC800E41D87 /* ActivityRing.swift in Sources */,
 				FCAA6A0C2B5447E4004319D4 /* StatusBarUpdateView.swift in Sources */,
 				FC2AADC02B72741C00586834 /* PasscodeView.swift in Sources */,
@@ -1332,16 +1219,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC2A1EEB2C44371600019085 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC2A1EF62C44371600019085 /* DummyControlControl.swift in Sources */,
-				FC2A1EF82C44371600019085 /* DummyControl.swift in Sources */,
-				FC2A1EF42C44371600019085 /* DummyControlBundle.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FCF6EF8E2B8776E200CB1010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1359,11 +1236,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FC2A1EFD2C44371800019085 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC2A1EEE2C44371600019085 /* DummyControlExtension */;
-			targetProxy = FC2A1EFC2C44371800019085 /* PBXContainerItemProxy */;
-		};
 		FCF6EFA42B8776E300CB1010 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FCF6EF912B8776E200CB1010 /* TimerWidgetExtension */;
@@ -1554,73 +1426,6 @@
 			};
 			name = Release;
 		};
-		FC2A1EFF2C44371800019085 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 87A46U8PS5;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DummyControl/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DummyControl;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dltduong.SwiftUIPortal.DummyControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FC2A1F002C44371800019085 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 87A46U8PS5;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DummyControl/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DummyControl;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dltduong.SwiftUIPortal.DummyControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		FCF6EFA72B8776E300CB1010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1705,15 +1510,6 @@
 			buildConfigurations = (
 				325DA0BC2921E773005F2E23 /* Debug */,
 				325DA0BD2921E773005F2E23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FC2A1F012C44371800019085 /* Build configuration list for PBXNativeTarget "DummyControlExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC2A1EFF2C44371800019085 /* Debug */,
-				FC2A1F002C44371800019085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
