@@ -40,6 +40,7 @@
 		FC0669502B5FD17800237F91 /* CustomToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06694F2B5FD17800237F91 /* CustomToastView.swift */; };
 		FC0669522B602B8600237F91 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0669512B602B8600237F91 /* SideMenuView.swift */; };
 		FC0669542B602CFC00237F91 /* AnimatedStickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0669532B602CFC00237F91 /* AnimatedStickyHeaderView.swift */; };
+		FC1A929C2C78644D00FDC95E /* LoadingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A929B2C78644D00FDC95E /* LoadingTextView.swift */; };
 		FC1BD8462B62B8AE006EAF40 /* AnimatedSFTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BD8452B62B8AE006EAF40 /* AnimatedSFTabView.swift */; };
 		FC209DCC2B401567006EA403 /* SwipeToHideNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DCB2B401567006EA403 /* SwipeToHideNavBar.swift */; };
 		FC209DCF2B401AA3006EA403 /* ParticleEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DCE2B401AA3006EA403 /* ParticleEmitterView.swift */; };
@@ -122,6 +123,14 @@
 		FC67E6BF2B7A0F7D00D494DE /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6BE2B7A0F7D00D494DE /* CoverFlowView.swift */; };
 		FC67E6C12B7A17A900D494DE /* GitHubAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6C02B7A17A900D494DE /* GitHubAnimationView.swift */; };
 		FC6E48DE2BB03CD2008AAEE6 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = FC6E48DD2BB03CD2008AAEE6 /* SplineRuntime */; };
+		FC71337E2C76EC5100E53143 /* SheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71337D2C76EC5100E53143 /* SheetContentView.swift */; };
+		FC7133852C76ECB400E53143 /* BlobLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71337F2C76ECB400E53143 /* BlobLayer.swift */; };
+		FC7133862C76ECB400E53143 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7133802C76ECB400E53143 /* CGPointExtension.swift */; };
+		FC7133872C76ECB400E53143 /* FluidGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7133812C76ECB400E53143 /* FluidGradient.swift */; };
+		FC7133882C76ECB400E53143 /* FluidGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7133822C76ECB400E53143 /* FluidGradientView.swift */; };
+		FC7133892C76ECB400E53143 /* ResizableLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7133832C76ECB400E53143 /* ResizableLayer.swift */; };
+		FC71338B2C76ECBE00E53143 /* RubiksCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71338A2C76ECBE00E53143 /* RubiksCube.swift */; };
+		FC71338D2C76ECD000E53143 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71338C2C76ECD000E53143 /* PDFViewer.swift */; };
 		FC75F11D2B753C5600DCD219 /* CustomTabBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75F11C2B753C5600DCD219 /* CustomTabBar2.swift */; };
 		FC7B67FF2B6E88DF000EA816 /* FloatingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B67FE2B6E88DF000EA816 /* FloatingButtonView.swift */; };
 		FC7B68012B6E89CF000EA816 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B68002B6E89CF000EA816 /* ShimmerView.swift */; };
@@ -259,6 +268,7 @@
 		FC06694F2B5FD17800237F91 /* CustomToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToastView.swift; sourceTree = "<group>"; };
 		FC0669512B602B8600237F91 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		FC0669532B602CFC00237F91 /* AnimatedStickyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedStickyHeaderView.swift; sourceTree = "<group>"; };
+		FC1A929B2C78644D00FDC95E /* LoadingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTextView.swift; sourceTree = "<group>"; };
 		FC1BD8452B62B8AE006EAF40 /* AnimatedSFTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSFTabView.swift; sourceTree = "<group>"; };
 		FC209DCB2B401567006EA403 /* SwipeToHideNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToHideNavBar.swift; sourceTree = "<group>"; };
 		FC209DCE2B401AA3006EA403 /* ParticleEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEmitterView.swift; sourceTree = "<group>"; };
@@ -338,6 +348,14 @@
 		FC67E6BC2B7A00CD00D494DE /* ProfessionalSideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalSideMenuView.swift; sourceTree = "<group>"; };
 		FC67E6BE2B7A0F7D00D494DE /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
 		FC67E6C02B7A17A900D494DE /* GitHubAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAnimationView.swift; sourceTree = "<group>"; };
+		FC71337D2C76EC5100E53143 /* SheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetContentView.swift; sourceTree = "<group>"; };
+		FC71337F2C76ECB400E53143 /* BlobLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobLayer.swift; sourceTree = "<group>"; };
+		FC7133802C76ECB400E53143 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		FC7133812C76ECB400E53143 /* FluidGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidGradient.swift; sourceTree = "<group>"; };
+		FC7133822C76ECB400E53143 /* FluidGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidGradientView.swift; sourceTree = "<group>"; };
+		FC7133832C76ECB400E53143 /* ResizableLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizableLayer.swift; sourceTree = "<group>"; };
+		FC71338A2C76ECBE00E53143 /* RubiksCube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RubiksCube.swift; path = SwiftUIPortal/Others/RubiksCube.swift; sourceTree = SOURCE_ROOT; };
+		FC71338C2C76ECD000E53143 /* PDFViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
 		FC75F11C2B753C5600DCD219 /* CustomTabBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar2.swift; sourceTree = "<group>"; };
 		FC7B67FE2B6E88DF000EA816 /* FloatingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonView.swift; sourceTree = "<group>"; };
 		FC7B68002B6E89CF000EA816 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
@@ -770,7 +788,12 @@
 				FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */,
 				FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */,
 				FCE069502C14CA3B0007E30C /* GlitchTextView.swift */,
+				FC71338A2C76ECBE00E53143 /* RubiksCube.swift */,
+				FC71338C2C76ECD000E53143 /* PDFViewer.swift */,
+				FC1A929B2C78644D00FDC95E /* LoadingTextView.swift */,
+				FC7133842C76ECB400E53143 /* FluidGradient */,
 				FCFE184D2BDF904F00CE7402 /* CustomLimitedTextField.swift */,
+				FC71337D2C76EC5100E53143 /* SheetContentView.swift */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
 			path = Others;
@@ -791,6 +814,18 @@
 				FC6452852B2592EC0008B6E5 /* HeartAnimationView.swift */,
 			);
 			path = HeartAnimation;
+			sourceTree = "<group>";
+		};
+		FC7133842C76ECB400E53143 /* FluidGradient */ = {
+			isa = PBXGroup;
+			children = (
+				FC71337F2C76ECB400E53143 /* BlobLayer.swift */,
+				FC7133802C76ECB400E53143 /* CGPointExtension.swift */,
+				FC7133812C76ECB400E53143 /* FluidGradient.swift */,
+				FC7133822C76ECB400E53143 /* FluidGradientView.swift */,
+				FC7133832C76ECB400E53143 /* ResizableLayer.swift */,
+			);
+			path = FluidGradient;
 			sourceTree = "<group>";
 		};
 		FC7B68022B6E96BE000EA816 /* MusicPlayerApp */ = {
@@ -1062,6 +1097,7 @@
 				FC3842E22B81E3A400FB8870 /* CustomTextField.swift in Sources */,
 				FC03AF4629949C32009A5D4E /* PokemonListView.swift in Sources */,
 				FC3842E32B81E3A400FB8870 /* CustomFont.swift in Sources */,
+				FC1A929C2C78644D00FDC95E /* LoadingTextView.swift in Sources */,
 				FC03AF4C2994A05F009A5D4E /* OtpVerificationView.swift in Sources */,
 				FC47A7652AA4FEC900E3F150 /* DownloadImageView.swift in Sources */,
 				FC324EAD2B865AED003C064E /* FluidMusicButton.swift in Sources */,
@@ -1107,11 +1143,13 @@
 				FC0669542B602CFC00237F91 /* AnimatedStickyHeaderView.swift in Sources */,
 				325DA0B32921E770005F2E23 /* ContentView.swift in Sources */,
 				FCC257572B74D13200DA813A /* TabSelectionView.swift in Sources */,
+				FC7133892C76ECB400E53143 /* ResizableLayer.swift in Sources */,
 				FC47A7302AA323FB00E3F150 /* TransactionsView.swift in Sources */,
 				FC848FB62B8A084300A8F0A2 /* CustomTextFieldView.swift in Sources */,
 				FCC2575B2B74D15200DA813A /* DiscussinListRowView.swift in Sources */,
 				FC47A7642AA4FEC900E3F150 /* NewYearAnim.swift in Sources */,
 				FCAA6A082B540B11004319D4 /* InfiniteCarouselView.swift in Sources */,
+				FC7133882C76ECB400E53143 /* FluidGradientView.swift in Sources */,
 				FC3842C92B81E35D00FB8870 /* TabBar.swift in Sources */,
 				3254EC8D29247BDD009308B9 /* NetworkMonitor.swift in Sources */,
 				EA9690E429752AAA008AA5E7 /* PokemonModel.swift in Sources */,
@@ -1119,6 +1157,7 @@
 				FC03AF4E2994A06B009A5D4E /* AuthView.swift in Sources */,
 				FC47A72E2AA323FB00E3F150 /* CardsScreen.swift in Sources */,
 				FC848FB82B8A09A500A8F0A2 /* CustomProgressView.swift in Sources */,
+				FC71338B2C76ECBE00E53143 /* RubiksCube.swift in Sources */,
 				FC848FBA2B8A4EC900A8F0A2 /* DropdownPickerView.swift in Sources */,
 				FC3842F62B81E3B300FB8870 /* Course.swift in Sources */,
 				FC848FB02B89E7B000A8F0A2 /* SegmentedPicker.swift in Sources */,
@@ -1130,6 +1169,7 @@
 				FC47A72D2AA323FB00E3F150 /* CardView.swift in Sources */,
 				EA9690EA297530D6008AA5E7 /* TypeChipList.swift in Sources */,
 				FCFE184E2BDF904F00CE7402 /* CustomLimitedTextField.swift in Sources */,
+				FC7133872C76ECB400E53143 /* FluidGradient.swift in Sources */,
 				FC1BD8462B62B8AE006EAF40 /* AnimatedSFTabView.swift in Sources */,
 				FC0669492B5F8BDB00237F91 /* CalmariaView.swift in Sources */,
 				FC47A7532AA4FEC900E3F150 /* OpacityAnimation.swift in Sources */,
@@ -1155,6 +1195,7 @@
 				FCF6EFB12B8778BB00CB1010 /* LiveActivityManager.swift in Sources */,
 				FC8D0CC62BDF474700041EC9 /* CustomRangeSlider.swift in Sources */,
 				FC47A73B2AA4FD0900E3F150 /* Utils.swift in Sources */,
+				FC7133862C76ECB400E53143 /* CGPointExtension.swift in Sources */,
 				FC3843022B81E48D00FB8870 /* Chart.swift in Sources */,
 				FC7B680A2B6EA095000EA816 /* TypewriterTextView.swift in Sources */,
 				FC67E6BD2B7A00CD00D494DE /* ProfessionalSideMenuView.swift in Sources */,
@@ -1165,6 +1206,7 @@
 				FC2AADC02B72741C00586834 /* PasscodeView.swift in Sources */,
 				FCF6EF8D2B8776C600CB1010 /* CircleTimerView.swift in Sources */,
 				FC7B68012B6E89CF000EA816 /* ShimmerView.swift in Sources */,
+				FC71337E2C76EC5100E53143 /* SheetContentView.swift in Sources */,
 				FC3842C42B81E2F500FB8870 /* SideMenu.swift in Sources */,
 				FC47A7542AA4FEC900E3F150 /* LinkedInLoader.swift in Sources */,
 				EA9690E22975295B008AA5E7 /* PokeAPIService.swift in Sources */,
@@ -1191,8 +1233,10 @@
 				FCC2574E2B73E3FF00DA813A /* ChatGPTLoginAnimationView.swift in Sources */,
 				FC7B680C2B6EA133000EA816 /* TabCategoryView.swift in Sources */,
 				FCC257592B74D13B00DA813A /* DiscussinListView.swift in Sources */,
+				FC7133852C76ECB400E53143 /* BlobLayer.swift in Sources */,
 				FC3843032B81E48D00FB8870 /* ListItem.swift in Sources */,
 				FC975C3F2B7142850017AF9B /* QRCameraView.swift in Sources */,
+				FC71338D2C76ECD000E53143 /* PDFViewer.swift in Sources */,
 				FC3843132B81E81E00FB8870 /* GridMagnificationView.swift in Sources */,
 				FCC257512B74D11C00DA813A /* BookInfoView.swift in Sources */,
 				FC67E6BF2B7A0F7D00D494DE /* CoverFlowView.swift in Sources */,

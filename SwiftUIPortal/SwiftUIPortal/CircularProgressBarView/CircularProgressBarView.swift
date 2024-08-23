@@ -24,8 +24,6 @@ struct CircularProgressBarView: View {
 
 struct CircularProgressBarSampleView: View {
     
-    @EnvironmentObject private var networkMonitor: NetworkMonitor
-    
     let total = 6
     @State var completed = 0
     let lineWidth: CGFloat = 16
