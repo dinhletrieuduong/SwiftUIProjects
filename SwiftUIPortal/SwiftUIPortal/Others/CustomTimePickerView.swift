@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+#Preview {
+    DatePickerView()
+}
 
 struct DatePickerView: View {
     
@@ -214,15 +217,6 @@ struct TimeSlider: View {
             }
         }
         
-    }
-}
-
-extension View {
-    func getWidth() -> CGFloat {
-        return UIScreen.main.bounds.width
-    }
-    func getHeight() -> CGFloat {
-        return UIScreen.main.bounds.height
     }
 }
 

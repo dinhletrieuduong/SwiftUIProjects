@@ -64,9 +64,39 @@ struct LinkedInLoader: View {
     }
 }
 
+struct LinearLoaderView: View {
+    let height: CGFloat
+    let backgroundColor: Color
+    let foregroundColor: Color
 
-struct LinkedInLoader_Previews: PreviewProvider {
-    static var previews: some View {
-        LinkedInLoader()
+    @State private var animating = false
+
+    var body: some View {
+        GeometryReader { proxy in
+            let width = proxy.size.width
+            let lineWidth = width/2
+
+            Capsule()
+                .fill(backgroundColor)
+                .frame(width: lineWidth)
+                .overlay {
+                    Capsule()
+                        .fill(foregroundColor)
+                        .frame(width: lineWidth)
+                        .offset(x: animating ? -lineWidth : lineWidth)
+                        .animation(.easeInOut(duration: 0.85).repeatForever(), value: animating)
+                }
+        }
+        .frame(height: height)
+        .clipShape(Capsule())
+        .onAppear(perform: {
+            animating.toggle()
+        })
     }
+}
+
+#Preview {
+//    LinearLoaderView(height: 5, backgroundColor: .gray, foregroundColor: .blue)
+
+    LinkedInLoader()
 }

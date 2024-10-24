@@ -20,12 +20,15 @@ struct InteractivePopGestureDemoView: View {
                             Toggle("Enable Full Swipe Pop", isOn: $isEnabled)
                                 .enableFullSwipePop(isEnabled)
                         }
+                        .navigationBarBackButtonHidden(true)
+                        .toolbar(.hidden, for: .navigationBar)
                         .navigationTitle("Full Swipe Pop")
                     }
                     
                     NavigationLink("Leading Swipe View") {
                         Text("")
                             .navigationTitle("Leading Swipe View")
+//                            .navigationBarBackButtonHidden(true)
                     }
                 }
             }
@@ -131,14 +134,6 @@ fileprivate extension UINavigationController {
         view.addGestureRecognizer(gesture)
     }
 }
-
-fileprivate extension UIView {
-    var parentVC: UIViewController? {
-        sequence(first: self) { $0.next }
-            .first(where: { ($0 is UIViewController) }) as? UIViewController
-    }
-}
-
 
 #Preview {
     InteractivePopGestureDemoView()

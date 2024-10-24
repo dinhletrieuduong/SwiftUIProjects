@@ -86,7 +86,7 @@ struct CustomAlertView<T: Hashable, M: View>: View {
                     }
                     .padding()
                     .frame(maxWidth: .infinity)
-                    .background(.background)
+                    .background(.secondary)//.background)
                     .cornerRadius(35)
                 }
                 .padding()

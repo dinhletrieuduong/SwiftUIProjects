@@ -1,5 +1,5 @@
 {
-  "originHash" : "0b8531de1a4cd8979f31fed71e5e88ddadc8d563d25e26c5818490aa37031cd4",
+  "originHash" : "494b5fb3fe079eeaad31cc83b1258405aa7de175900e22a6fbb093d2663d311a",
   "pins" : [
     {
       "identity" : "cameraview",
@@ -53,6 +53,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "8b12c849f4f9c779e1026246a93f812d659004ec"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/swiftui-introspect",
+      "state" : {
+        "revision" : "807f73ce09a9b9723f12385e592b4e0aaebd3336",
+        "version" : "1.3.0"
       }
     }
   ],

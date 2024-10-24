@@ -46,6 +46,7 @@
 		FC209DCF2B401AA3006EA403 /* ParticleEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DCE2B401AA3006EA403 /* ParticleEmitterView.swift */; };
 		FC209DD12B401C6B006EA403 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC209DD02B401C6B006EA403 /* ParticleEffect.swift */; };
 		FC2AADC02B72741C00586834 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2AADBF2B72741C00586834 /* PasscodeView.swift */; };
+		FC2B2D572CBD20DA0047E77C /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2B2D562CBD20D20047E77C /* AnimatedText.swift */; };
 		FC324EAD2B865AED003C064E /* FluidMusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC324EAC2B865AED003C064E /* FluidMusicButton.swift */; };
 		FC324EAF2B865E74003C064E /* IncomingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC324EAE2B865E74003C064E /* IncomingCall.swift */; };
 		FC324EB12B865F24003C064E /* SlideWith3DYRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC324EB02B865F24003C064E /* SlideWith3DYRotation.swift */; };
@@ -61,7 +62,6 @@
 		FC3842DE2B81E3A400FB8870 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = FC3842CF2B81E3A400FB8870 /* shapes.riv */; };
 		FC3842DF2B81E3A400FB8870 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = FC3842D02B81E3A400FB8870 /* button.riv */; };
 		FC3842E02B81E3A400FB8870 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = FC3842D12B81E3A400FB8870 /* icons.riv */; };
-		FC3842E12B81E3A400FB8870 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3842D32B81E3A400FB8870 /* Extensions.swift */; };
 		FC3842E22B81E3A400FB8870 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3842D42B81E3A400FB8870 /* CustomTextField.swift */; };
 		FC3842E32B81E3A400FB8870 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3842D52B81E3A400FB8870 /* CustomFont.swift */; };
 		FC3842E42B81E3A400FB8870 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3842D72B81E3A400FB8870 /* HomeView.swift */; };
@@ -129,7 +129,6 @@
 		FC7133872C76ECB400E53143 /* FluidGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7133812C76ECB400E53143 /* FluidGradient.swift */; };
 		FC7133882C76ECB400E53143 /* FluidGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7133822C76ECB400E53143 /* FluidGradientView.swift */; };
 		FC7133892C76ECB400E53143 /* ResizableLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7133832C76ECB400E53143 /* ResizableLayer.swift */; };
-		FC71338B2C76ECBE00E53143 /* RubiksCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71338A2C76ECBE00E53143 /* RubiksCube.swift */; };
 		FC71338D2C76ECD000E53143 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71338C2C76ECD000E53143 /* PDFViewer.swift */; };
 		FC75F11D2B753C5600DCD219 /* CustomTabBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75F11C2B753C5600DCD219 /* CustomTabBar2.swift */; };
 		FC7B67FF2B6E88DF000EA816 /* FloatingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B67FE2B6E88DF000EA816 /* FloatingButtonView.swift */; };
@@ -157,6 +156,7 @@
 		FC848FC22B8CA5C700A8F0A2 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = FC848FC12B8CA5C700A8F0A2 /* cards.json */; };
 		FC8D0CC42BDF402E00041EC9 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */; };
 		FC8D0CC62BDF474700041EC9 /* CustomRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */; };
+		FC9557D82C898C9A00CBF9F9 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9557D72C898C9A00CBF9F9 /* ColorExtension.swift */; };
 		FC975C3D2B713F3B0017AF9B /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */; };
 		FC975C3F2B7142850017AF9B /* QRCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC975C3E2B7142850017AF9B /* QRCameraView.swift */; };
 		FC991C082B78CF63001C65B1 /* InteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */; };
@@ -170,6 +170,7 @@
 		FCAA6A082B540B11004319D4 /* InfiniteCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA6A072B540B11004319D4 /* InfiniteCarouselView.swift */; };
 		FCAA6A0A2B5440B6004319D4 /* NumberTextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA6A092B5440B6004319D4 /* NumberTextAnimation.swift */; };
 		FCAA6A0C2B5447E4004319D4 /* StatusBarUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA6A0B2B5447E4004319D4 /* StatusBarUpdateView.swift */; };
+		FCAB7B122C894F05008ACC84 /* LongPressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAB7B112C894F05008ACC84 /* LongPressButton.swift */; };
 		FCAC500A2B6A2FC800E41D87 /* ActivityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC50092B6A2FC800E41D87 /* ActivityRing.swift */; };
 		FCAF179C2AAD8AB100CBB953 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF179B2AAD8AB100CBB953 /* Router.swift */; };
 		FCB4428D2B41160E00BBA560 /* ParticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4428C2B41160E00BBA560 /* ParticleModel.swift */; };
@@ -187,11 +188,19 @@
 		FCC2575F2B74D16900DA813A /* DiscussinListAvatarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2575E2B74D16900DA813A /* DiscussinListAvatarsView.swift */; };
 		FCC257612B75333500DA813A /* CustomTabBarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC257602B75333500DA813A /* CustomTabBarAnimation.swift */; };
 		FCC257642B7535C400DA813A /*  StunningPodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC257632B7535C400DA813A /*  StunningPodcastView.swift */; };
+		FCC96EA12CB9206C0031B951 /* AnimationModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC96EA02CB920630031B951 /* AnimationModifiers.swift */; };
+		FCD1C8782CCA40FC006DA5B3 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1C8772CCA40F3006DA5B3 /* FloatingTextField.swift */; };
+		FCD1C87A2CCA422E006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1C8792CCA422C006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift */; };
+		FCD1C87C2CCA4275006DA5B3 /* NewAPIFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1C87B2CCA426E006DA5B3 /* NewAPIFormatText.swift */; };
+		FCD1C87E2CCA4319006DA5B3 /* FormatAndValidateByIntrospectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1C87D2CCA4318006DA5B3 /* FormatAndValidateByIntrospectView.swift */; };
+		FCD1C8812CCA4389006DA5B3 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = FCD1C8802CCA4389006DA5B3 /* SwiftUIIntrospect */; };
+		FCD1C8832CCA479C006DA5B3 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1C8822CCA4796006DA5B3 /* CurrencyTextField.swift */; };
 		FCD93B6A2AA2588000B07AFE /* SequenceAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD93B692AA2588000B07AFE /* SequenceAnimationHome.swift */; };
 		FCE069512C14CA3B0007E30C /* GlitchTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE069502C14CA3B0007E30C /* GlitchTextView.swift */; };
 		FCE3CFFC2B5CEAA90012E071 /* GradientCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */; };
 		FCE3CFFE2B5CEF480012E071 /* FacebookReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */; };
 		FCE3D0022B5D722A0012E071 /* ParallaxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */; };
+		FCE6126D2CAEA27900EB071D /* DNAHelixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6126C2CAEA27800EB071D /* DNAHelixView.swift */; };
 		FCF6EF8D2B8776C600CB1010 /* CircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6EF8C2B8776C600CB1010 /* CircleTimerView.swift */; };
 		FCF6EF942B8776E200CB1010 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6EF932B8776E200CB1010 /* WidgetKit.framework */; };
 		FCF6EF962B8776E200CB1010 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6EF952B8776E200CB1010 /* SwiftUI.framework */; };
@@ -274,6 +283,7 @@
 		FC209DCE2B401AA3006EA403 /* ParticleEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEmitterView.swift; sourceTree = "<group>"; };
 		FC209DD02B401C6B006EA403 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
 		FC2AADBF2B72741C00586834 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		FC2B2D562CBD20D20047E77C /* AnimatedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedText.swift; sourceTree = "<group>"; };
 		FC324EAC2B865AED003C064E /* FluidMusicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidMusicButton.swift; sourceTree = "<group>"; };
 		FC324EAE2B865E74003C064E /* IncomingCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCall.swift; sourceTree = "<group>"; };
 		FC324EB02B865F24003C064E /* SlideWith3DYRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideWith3DYRotation.swift; sourceTree = "<group>"; };
@@ -289,7 +299,6 @@
 		FC3842CF2B81E3A400FB8870 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
 		FC3842D02B81E3A400FB8870 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
 		FC3842D12B81E3A400FB8870 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
-		FC3842D32B81E3A400FB8870 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FC3842D42B81E3A400FB8870 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		FC3842D52B81E3A400FB8870 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		FC3842D72B81E3A400FB8870 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -354,7 +363,6 @@
 		FC7133812C76ECB400E53143 /* FluidGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidGradient.swift; sourceTree = "<group>"; };
 		FC7133822C76ECB400E53143 /* FluidGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidGradientView.swift; sourceTree = "<group>"; };
 		FC7133832C76ECB400E53143 /* ResizableLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizableLayer.swift; sourceTree = "<group>"; };
-		FC71338A2C76ECBE00E53143 /* RubiksCube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RubiksCube.swift; path = SwiftUIPortal/Others/RubiksCube.swift; sourceTree = SOURCE_ROOT; };
 		FC71338C2C76ECD000E53143 /* PDFViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
 		FC75F11C2B753C5600DCD219 /* CustomTabBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar2.swift; sourceTree = "<group>"; };
 		FC7B67FE2B6E88DF000EA816 /* FloatingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonView.swift; sourceTree = "<group>"; };
@@ -381,6 +389,7 @@
 		FC848FC12B8CA5C700A8F0A2 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
 		FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 		FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRangeSlider.swift; sourceTree = "<group>"; };
+		FC9557D72C898C9A00CBF9F9 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		FC975C3C2B713F3B0017AF9B /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		FC975C3E2B7142850017AF9B /* QRCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraView.swift; sourceTree = "<group>"; };
 		FC991C072B78CF63001C65B1 /* InteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGesture.swift; sourceTree = "<group>"; };
@@ -394,6 +403,7 @@
 		FCAA6A072B540B11004319D4 /* InfiniteCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarouselView.swift; sourceTree = "<group>"; };
 		FCAA6A092B5440B6004319D4 /* NumberTextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextAnimation.swift; sourceTree = "<group>"; };
 		FCAA6A0B2B5447E4004319D4 /* StatusBarUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarUpdateView.swift; sourceTree = "<group>"; };
+		FCAB7B112C894F05008ACC84 /* LongPressButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressButton.swift; sourceTree = "<group>"; };
 		FCAC50092B6A2FC800E41D87 /* ActivityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRing.swift; sourceTree = "<group>"; };
 		FCAF179B2AAD8AB100CBB953 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		FCB4428C2B41160E00BBA560 /* ParticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleModel.swift; sourceTree = "<group>"; };
@@ -411,11 +421,18 @@
 		FCC2575E2B74D16900DA813A /* DiscussinListAvatarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussinListAvatarsView.swift; sourceTree = "<group>"; };
 		FCC257602B75333500DA813A /* CustomTabBarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarAnimation.swift; sourceTree = "<group>"; };
 		FCC257632B7535C400DA813A /*  StunningPodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " StunningPodcastView.swift"; sourceTree = "<group>"; };
+		FCC96EA02CB920630031B951 /* AnimationModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModifiers.swift; sourceTree = "<group>"; };
+		FCD1C8772CCA40F3006DA5B3 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		FCD1C8792CCA422C006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatAndValidateByPureSwiftUIView.swift; sourceTree = "<group>"; };
+		FCD1C87B2CCA426E006DA5B3 /* NewAPIFormatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAPIFormatText.swift; sourceTree = "<group>"; };
+		FCD1C87D2CCA4318006DA5B3 /* FormatAndValidateByIntrospectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatAndValidateByIntrospectView.swift; sourceTree = "<group>"; };
+		FCD1C8822CCA4796006DA5B3 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 		FCD93B692AA2588000B07AFE /* SequenceAnimationHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceAnimationHome.swift; sourceTree = "<group>"; };
 		FCE069502C14CA3B0007E30C /* GlitchTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchTextView.swift; sourceTree = "<group>"; };
 		FCE3CFFB2B5CEAA90012E071 /* GradientCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCardAnimation.swift; sourceTree = "<group>"; };
 		FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookReactions.swift; sourceTree = "<group>"; };
 		FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCardView.swift; sourceTree = "<group>"; };
+		FCE6126C2CAEA27800EB071D /* DNAHelixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAHelixView.swift; sourceTree = "<group>"; };
 		FCF6EF8C2B8776C600CB1010 /* CircleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimerView.swift; sourceTree = "<group>"; };
 		FCF6EF922B8776E200CB1010 /* TimerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF6EF932B8776E200CB1010 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -440,6 +457,7 @@
 				FC834B2C2B79F0DB0046B2B5 /* SwiftAndTipsMacros in Frameworks */,
 				FC38430D2B81E55200FB8870 /* SwiftUICharts in Frameworks */,
 				FC6E48DE2BB03CD2008AAEE6 /* SplineRuntime in Frameworks */,
+				FCD1C8812CCA4389006DA5B3 /* SwiftUIIntrospect in Frameworks */,
 				FC3842C72B81E35600FB8870 /* RiveRuntime in Frameworks */,
 				FC38430A2B81E4FA00FB8870 /* CameraView in Frameworks */,
 			);
@@ -610,7 +628,6 @@
 		FC3842D22B81E3A400FB8870 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				FC3842D32B81E3A400FB8870 /* Extensions.swift */,
 				FC3842D42B81E3A400FB8870 /* CustomTextField.swift */,
 				FC3842D52B81E3A400FB8870 /* CustomFont.swift */,
 			);
@@ -694,6 +711,12 @@
 		FC47A73C2AA4FEB600E3F150 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				FCD1C8822CCA4796006DA5B3 /* CurrencyTextField.swift */,
+				FCD1C8772CCA40F3006DA5B3 /* FloatingTextField.swift */,
+				FCD1C8792CCA422C006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift */,
+				FCD1C87D2CCA4318006DA5B3 /* FormatAndValidateByIntrospectView.swift */,
+				FCD1C87B2CCA426E006DA5B3 /* NewAPIFormatText.swift */,
+				FCE6126B2CAEA27000EB071D /* DNA Helix Animation */,
 				FC3842F92B81E46D00FB8870 /* TranslucentBackground */,
 				FC3842C02B81E2B600FB8870 /* Animated */,
 				FCC257622B7535BB00DA813A /*  StunningPodcast */,
@@ -706,6 +729,8 @@
 				FC06694A2B5F8CD300237F91 /* Calmaria */,
 				FC9F0D3B2B63B6E5003379E5 /* ParallaxCarouselCard */,
 				FC47A7492AA4FEC900E3F150 /* CircleButton.swift */,
+				FC2B2D562CBD20D20047E77C /* AnimatedText.swift */,
+				FCC96EA02CB920630031B951 /* AnimationModifiers.swift */,
 				FC47A7502AA4FEC900E3F150 /* DownloadImageView.swift */,
 				FC47A7442AA4FEC900E3F150 /* fireworks3.json */,
 				FC47A7432AA4FEC900E3F150 /* FlowerPetals.swift */,
@@ -777,7 +802,7 @@
 				FC848FAF2B89E7B000A8F0A2 /* SegmentedPicker.swift */,
 				FC848FAD2B88A34600A8F0A2 /* CustomAlertView.swift */,
 				FC848FB32B8A02B300A8F0A2 /* CustomSegmentControl.swift */,
-				FC848FB52B8A084300A8F0A2 /* CustomTextFieldView.swift */,
+				FCAB7B132C8954DF008ACC84 /* TextField */,
 				FC848FB72B8A09A500A8F0A2 /* CustomProgressView.swift */,
 				FC848FB92B8A4EC900A8F0A2 /* DropdownPickerView.swift */,
 				FC848FBB2B8A4EFD00A8F0A2 /* CustomButton.swift */,
@@ -788,11 +813,10 @@
 				FC8D0CC32BDF402E00041EC9 /* CustomTransition.swift */,
 				FC8D0CC52BDF474700041EC9 /* CustomRangeSlider.swift */,
 				FCE069502C14CA3B0007E30C /* GlitchTextView.swift */,
-				FC71338A2C76ECBE00E53143 /* RubiksCube.swift */,
 				FC71338C2C76ECD000E53143 /* PDFViewer.swift */,
+				FCAB7B112C894F05008ACC84 /* LongPressButton.swift */,
 				FC1A929B2C78644D00FDC95E /* LoadingTextView.swift */,
 				FC7133842C76ECB400E53143 /* FluidGradient */,
-				FCFE184D2BDF904F00CE7402 /* CustomLimitedTextField.swift */,
 				FC71337D2C76EC5100E53143 /* SheetContentView.swift */,
 				FCF6EFAA2B87772100CB1010 /* Timer */,
 			);
@@ -881,12 +905,22 @@
 			path = IntroAnimation;
 			sourceTree = "<group>";
 		};
+		FCAB7B132C8954DF008ACC84 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE184D2BDF904F00CE7402 /* CustomLimitedTextField.swift */,
+				FC848FB52B8A084300A8F0A2 /* CustomTextFieldView.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		FCB59AD12A506022008975DC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				FC47A73A2AA4FD0900E3F150 /* Utils.swift */,
 				FC03AF4F2994A0BD009A5D4E /* ViewExtension.swift */,
 				FCB59ACF2A506015008975DC /* ShimmerEffect.swift */,
+				FC9557D72C898C9A00CBF9F9 /* ColorExtension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -939,6 +973,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FCE6126B2CAEA27000EB071D /* DNA Helix Animation */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6126C2CAEA27800EB071D /* DNAHelixView.swift */,
+			);
+			path = "DNA Helix Animation";
+			sourceTree = "<group>";
+		};
 		FCF6EF972B8776E200CB1010 /* TimerWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -987,6 +1029,7 @@
 				FC3843092B81E4FA00FB8870 /* CameraView */,
 				FC38430C2B81E55200FB8870 /* SwiftUICharts */,
 				FC6E48DD2BB03CD2008AAEE6 /* SplineRuntime */,
+				FCD1C8802CCA4389006DA5B3 /* SwiftUIIntrospect */,
 			);
 			productName = SwiftUIPortal;
 			productReference = 325DA0AD2921E770005F2E23 /* SwiftUIPortal.app */;
@@ -1017,7 +1060,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					325DA0AC2921E770005F2E23 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -1042,6 +1085,7 @@
 				FC3843082B81E4FA00FB8870 /* XCRemoteSwiftPackageReference "CameraView" */,
 				FC38430B2B81E55200FB8870 /* XCRemoteSwiftPackageReference "ChartView" */,
 				FC6E48DC2BB03CD2008AAEE6 /* XCRemoteSwiftPackageReference "spline-ios" */,
+				FCD1C87F2CCA4389006DA5B3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
 			);
 			productRefGroup = 325DA0AE2921E770005F2E23 /* Products */;
 			projectDirPath = "";
@@ -1106,7 +1150,9 @@
 				FC47A7602AA4FEC900E3F150 /* ShapeAnimation.swift in Sources */,
 				FC47A75A2AA4FEC900E3F150 /* SpreadingAnim.swift in Sources */,
 				FC03AF542994A109009A5D4E /* CustomTimePickerView.swift in Sources */,
+				FCD1C8832CCA479C006DA5B3 /* CurrencyTextField.swift in Sources */,
 				FC3842F22B81E3B300FB8870 /* HCard.swift in Sources */,
+				FCD1C87A2CCA422E006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift in Sources */,
 				FC06694C2B5F8CE400237F91 /* CalmariaVisualEffectView.swift in Sources */,
 				FC47A7702AA4FF0E00E3F150 /* Counter.swift in Sources */,
 				FC3842E42B81E3A400FB8870 /* HomeView.swift in Sources */,
@@ -1133,6 +1179,7 @@
 				FC5078F72A4930CF00E1EE77 /* TransparentBlurView.swift in Sources */,
 				FC3842E52B81E3A400FB8870 /* SignInView.swift in Sources */,
 				FC0669502B5FD17800237F91 /* CustomToastView.swift in Sources */,
+				FCD1C87C2CCA4275006DA5B3 /* NewAPIFormatText.swift in Sources */,
 				FCA81F812AA63073009C9881 /* IntroView.swift in Sources */,
 				EA9690D82974FEFB008AA5E7 /* YoutubeOpeningAnimation.swift in Sources */,
 				FC848FBC2B8A4EFD00A8F0A2 /* CustomButton.swift in Sources */,
@@ -1157,7 +1204,6 @@
 				FC03AF4E2994A06B009A5D4E /* AuthView.swift in Sources */,
 				FC47A72E2AA323FB00E3F150 /* CardsScreen.swift in Sources */,
 				FC848FB82B8A09A500A8F0A2 /* CustomProgressView.swift in Sources */,
-				FC71338B2C76ECBE00E53143 /* RubiksCube.swift in Sources */,
 				FC848FBA2B8A4EC900A8F0A2 /* DropdownPickerView.swift in Sources */,
 				FC3842F62B81E3B300FB8870 /* Course.swift in Sources */,
 				FC848FB02B89E7B000A8F0A2 /* SegmentedPicker.swift in Sources */,
@@ -1179,6 +1225,7 @@
 				FC0669522B602B8600237F91 /* SideMenuView.swift in Sources */,
 				FCC257612B75333500DA813A /* CustomTabBarAnimation.swift in Sources */,
 				FC03AF4829949C4B009A5D4E /* PokemonDetailView.swift in Sources */,
+				FCE6126D2CAEA27900EB071D /* DNAHelixView.swift in Sources */,
 				FC6452862B2592EC0008B6E5 /* HeartAnimationView.swift in Sources */,
 				FC3843112B81E78C00FB8870 /* MetaballsView.swift in Sources */,
 				FC38430F2B81E6D300FB8870 /* ButtonExperiments.swift in Sources */,
@@ -1196,15 +1243,18 @@
 				FC8D0CC62BDF474700041EC9 /* CustomRangeSlider.swift in Sources */,
 				FC47A73B2AA4FD0900E3F150 /* Utils.swift in Sources */,
 				FC7133862C76ECB400E53143 /* CGPointExtension.swift in Sources */,
+				FCD1C87E2CCA4319006DA5B3 /* FormatAndValidateByIntrospectView.swift in Sources */,
 				FC3843022B81E48D00FB8870 /* Chart.swift in Sources */,
 				FC7B680A2B6EA095000EA816 /* TypewriterTextView.swift in Sources */,
 				FC67E6BD2B7A00CD00D494DE /* ProfessionalSideMenuView.swift in Sources */,
 				325DA0BF2921E8B8005F2E23 /* CircularProgressBarBackgroundView.swift in Sources */,
 				EA9690E629752AD7008AA5E7 /* PokemonView.swift in Sources */,
 				FCAC500A2B6A2FC800E41D87 /* ActivityRing.swift in Sources */,
+				FCAB7B122C894F05008ACC84 /* LongPressButton.swift in Sources */,
 				FCAA6A0C2B5447E4004319D4 /* StatusBarUpdateView.swift in Sources */,
 				FC2AADC02B72741C00586834 /* PasscodeView.swift in Sources */,
 				FCF6EF8D2B8776C600CB1010 /* CircleTimerView.swift in Sources */,
+				FC9557D82C898C9A00CBF9F9 /* ColorExtension.swift in Sources */,
 				FC7B68012B6E89CF000EA816 /* ShimmerView.swift in Sources */,
 				FC71337E2C76EC5100E53143 /* SheetContentView.swift in Sources */,
 				FC3842C42B81E2F500FB8870 /* SideMenu.swift in Sources */,
@@ -1226,6 +1276,7 @@
 				FC3842C22B81E2D700FB8870 /* AnimatedContentView.swift in Sources */,
 				FC3842F52B81E3B300FB8870 /* CourseSection.swift in Sources */,
 				FC3843072B81E48D00FB8870 /* TranslucentBackgroundContentView.swift in Sources */,
+				FC2B2D572CBD20DA0047E77C /* AnimatedText.swift in Sources */,
 				325DA0C12921E8CE005F2E23 /* CircularProgressBarProgressView.swift in Sources */,
 				FCAA6A0A2B5440B6004319D4 /* NumberTextAnimation.swift in Sources */,
 				FCB4428D2B41160E00BBA560 /* ParticleModel.swift in Sources */,
@@ -1253,13 +1304,14 @@
 				FC848FAE2B88A34600A8F0A2 /* CustomAlertView.swift in Sources */,
 				FC03AF5E2994A150009A5D4E /* TinderSwipableCardView.swift in Sources */,
 				FCF6EFAC2B87772B00CB1010 /* TimerAttributes.swift in Sources */,
-				FC3842E12B81E3A400FB8870 /* Extensions.swift in Sources */,
 				FC47A7372AA37F0C00E3F150 /* ActiveKeyboardField.swift in Sources */,
 				FC324EAF2B865E74003C064E /* IncomingCall.swift in Sources */,
 				FC3843012B81E48D00FB8870 /* BalanceCard.swift in Sources */,
+				FCD1C8782CCA40FC006DA5B3 /* FloatingTextField.swift in Sources */,
 				FCA81F7F2AA62FD5009C9881 /* IntroModel.swift in Sources */,
 				FC6452842B25922B0008B6E5 /* HeartParticle.swift in Sources */,
 				EA9690E829752C88008AA5E7 /* PokeRow.swift in Sources */,
+				FCC96EA12CB9206C0031B951 /* AnimationModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1292,6 +1344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1353,6 +1406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1407,7 +1461,6 @@
 		325DA0BC2921E773005F2E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1440,7 +1493,6 @@
 		325DA0BD2921E773005F2E23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1610,6 +1662,14 @@
 				kind = branch;
 			};
 		};
+		FCD1C87F2CCA4389006DA5B3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/swiftui-introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1637,6 +1697,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC834B2A2B79F0DB0046B2B5 /* XCRemoteSwiftPackageReference "SwiftAndTipsMacros" */;
 			productName = SwiftAndTipsMacros;
+		};
+		FCD1C8802CCA4389006DA5B3 /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCD1C87F2CCA4389006DA5B3 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = SwiftUIIntrospect;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

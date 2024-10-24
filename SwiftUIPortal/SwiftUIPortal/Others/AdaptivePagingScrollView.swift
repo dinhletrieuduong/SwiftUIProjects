@@ -378,10 +378,6 @@ struct PagingPageControl: UIViewRepresentable {
     }
 }
 
-extension Color {
-    static var nightBlue = Color(UIColor(red: 0.216, green: 0.196, blue: 0.812, alpha: 1))
-}
-
 
 enum Orientation {
     case horizontal, vertical

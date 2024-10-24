@@ -254,18 +254,6 @@ private struct SheetRootViewFinder: UIViewRepresentable {
     
 }
 
-fileprivate extension UIView {
-    var viewBeforeWindow: UIView? {
-        if let superview, superview is UIWindow {
-            return self
-        }
-        return superview?.viewBeforeWindow
-    }
-    
-    var allSubviews: [UIView] {
-        return subviews.flatMap { [$0] + $0.subviews}
-    }
-}
 
 struct Marker: Identifiable {
     let id = UUID()

@@ -91,16 +91,6 @@ private struct NavigationControllerExtractor: UIViewRepresentable {
     }
 }
 
-private extension UIView {
-    var parentController: UIViewController? {
-        sequence(first: self) { view in
-            view.next
-        }
-        .first { responder in
-            return responder is UIViewController
-        } as? UIViewController
-    }
-}
 
 #Preview {
     SwipeToHideNavBarView()

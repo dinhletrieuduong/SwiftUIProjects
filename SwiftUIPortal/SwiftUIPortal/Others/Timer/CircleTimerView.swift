@@ -135,15 +135,3 @@ struct CircleTimerDemoView: View {
 #Preview(body: {
     CircleTimerDemoView()
 })
-
-extension View {
-    func timerButtonStyle(isValid: Bool = true) -> some View {
-        self
-            .font(.title2)
-            .padding()
-            .background(Color.primary.opacity(isValid ? 1.0 : 0.2))
-            .foregroundColor(Color.gray)
-            .cornerRadius(10)
-            .shadow(radius: 5)
-    }
-}
