@@ -86,6 +86,8 @@
 		FC38430F2B81E6D300FB8870 /* ButtonExperiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC38430E2B81E6D300FB8870 /* ButtonExperiments.swift */; };
 		FC3843112B81E78C00FB8870 /* MetaballsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3843102B81E78C00FB8870 /* MetaballsView.swift */; };
 		FC3843132B81E81E00FB8870 /* GridMagnificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3843122B81E81E00FB8870 /* GridMagnificationView.swift */; };
+		FC3991A82CCF94C500033896 /* PlayStationLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3991A72CCF94BD00033896 /* PlayStationLoaderView.swift */; };
+		FC3991AB2CCF99B400033896 /* ChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3991AA2CCF99B100033896 /* ChipsView.swift */; };
 		FC47A72C2AA323FB00E3F150 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47A7262AA323FB00E3F150 /* TransactionRow.swift */; };
 		FC47A72D2AA323FB00E3F150 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47A7272AA323FB00E3F150 /* CardView.swift */; };
 		FC47A72E2AA323FB00E3F150 /* CardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47A7282AA323FB00E3F150 /* CardsScreen.swift */; };
@@ -122,6 +124,13 @@
 		FC67E6BD2B7A00CD00D494DE /* ProfessionalSideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6BC2B7A00CD00D494DE /* ProfessionalSideMenuView.swift */; };
 		FC67E6BF2B7A0F7D00D494DE /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6BE2B7A0F7D00D494DE /* CoverFlowView.swift */; };
 		FC67E6C12B7A17A900D494DE /* GitHubAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67E6C02B7A17A900D494DE /* GitHubAnimationView.swift */; };
+		FC68B62A2CCBA8C900F13554 /* RainParticleEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68B6292CCBA8C500F13554 /* RainParticleEffectView.swift */; };
+		FC68B62D2CCBA8E800F13554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC68B62B2CCBA8E800F13554 /* Assets.xcassets */; };
+		FC68B62E2CCBA8E800F13554 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC68B62C2CCBA8E800F13554 /* Rain.sks */; };
+		FC68B6302CCBFC3D00F13554 /* Rain2.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC68B62F2CCBFC3D00F13554 /* Rain2.sks */; };
+		FC68B6322CCBFC8700F13554 /* RainLightningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68B6312CCBFC8500F13554 /* RainLightningScene.swift */; };
+		FC68B6342CCC12F800F13554 /* PreventScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68B6332CCC12F600F13554 /* PreventScreenshot.swift */; };
+		FC68B6362CCCABD900F13554 /* HeroAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68B6352CCCABD400F13554 /* HeroAnimationView.swift */; };
 		FC6E48DE2BB03CD2008AAEE6 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = FC6E48DD2BB03CD2008AAEE6 /* SplineRuntime */; };
 		FC71337E2C76EC5100E53143 /* SheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71337D2C76EC5100E53143 /* SheetContentView.swift */; };
 		FC7133852C76ECB400E53143 /* BlobLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71337F2C76ECB400E53143 /* BlobLayer.swift */; };
@@ -188,6 +197,8 @@
 		FCC2575F2B74D16900DA813A /* DiscussinListAvatarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2575E2B74D16900DA813A /* DiscussinListAvatarsView.swift */; };
 		FCC257612B75333500DA813A /* CustomTabBarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC257602B75333500DA813A /* CustomTabBarAnimation.swift */; };
 		FCC257642B7535C400DA813A /*  StunningPodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC257632B7535C400DA813A /*  StunningPodcastView.swift */; };
+		FCC8C9702CDE2023005F45AE /* BounceTextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8C96F2CDE201F005F45AE /* BounceTextAnimation.swift */; };
+		FCC8C9722CDE23E2005F45AE /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8C9712CDE23DD005F45AE /* LoadingIndicatorView.swift */; };
 		FCC96EA12CB9206C0031B951 /* AnimationModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC96EA02CB920630031B951 /* AnimationModifiers.swift */; };
 		FCD1C8782CCA40FC006DA5B3 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1C8772CCA40F3006DA5B3 /* FloatingTextField.swift */; };
 		FCD1C87A2CCA422E006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1C8792CCA422C006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift */; };
@@ -201,6 +212,8 @@
 		FCE3CFFE2B5CEF480012E071 /* FacebookReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */; };
 		FCE3D0022B5D722A0012E071 /* ParallaxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */; };
 		FCE6126D2CAEA27900EB071D /* DNAHelixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6126C2CAEA27800EB071D /* DNAHelixView.swift */; };
+		FCF382BA2CD50E5600A38E26 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF382B92CD50E5200A38E26 /* MoodView.swift */; };
+		FCF382BC2CD51D6D00A38E26 /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF382BB2CD51D6700A38E26 /* CustomBottomSheet.swift */; };
 		FCF6EF8D2B8776C600CB1010 /* CircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6EF8C2B8776C600CB1010 /* CircleTimerView.swift */; };
 		FCF6EF942B8776E200CB1010 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6EF932B8776E200CB1010 /* WidgetKit.framework */; };
 		FCF6EF962B8776E200CB1010 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF6EF952B8776E200CB1010 /* SwiftUI.framework */; };
@@ -321,6 +334,8 @@
 		FC38430E2B81E6D300FB8870 /* ButtonExperiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExperiments.swift; sourceTree = "<group>"; };
 		FC3843102B81E78C00FB8870 /* MetaballsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaballsView.swift; sourceTree = "<group>"; };
 		FC3843122B81E81E00FB8870 /* GridMagnificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridMagnificationView.swift; sourceTree = "<group>"; };
+		FC3991A72CCF94BD00033896 /* PlayStationLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayStationLoaderView.swift; sourceTree = "<group>"; };
+		FC3991AA2CCF99B100033896 /* ChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsView.swift; sourceTree = "<group>"; };
 		FC47A7262AA323FB00E3F150 /* TransactionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		FC47A7272AA323FB00E3F150 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FC47A7282AA323FB00E3F150 /* CardsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsScreen.swift; sourceTree = "<group>"; };
@@ -357,6 +372,13 @@
 		FC67E6BC2B7A00CD00D494DE /* ProfessionalSideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalSideMenuView.swift; sourceTree = "<group>"; };
 		FC67E6BE2B7A0F7D00D494DE /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
 		FC67E6C02B7A17A900D494DE /* GitHubAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAnimationView.swift; sourceTree = "<group>"; };
+		FC68B6292CCBA8C500F13554 /* RainParticleEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainParticleEffectView.swift; sourceTree = "<group>"; };
+		FC68B62B2CCBA8E800F13554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC68B62C2CCBA8E800F13554 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		FC68B62F2CCBFC3D00F13554 /* Rain2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain2.sks; sourceTree = "<group>"; };
+		FC68B6312CCBFC8500F13554 /* RainLightningScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainLightningScene.swift; sourceTree = "<group>"; };
+		FC68B6332CCC12F600F13554 /* PreventScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventScreenshot.swift; sourceTree = "<group>"; };
+		FC68B6352CCCABD400F13554 /* HeroAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationView.swift; sourceTree = "<group>"; };
 		FC71337D2C76EC5100E53143 /* SheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetContentView.swift; sourceTree = "<group>"; };
 		FC71337F2C76ECB400E53143 /* BlobLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobLayer.swift; sourceTree = "<group>"; };
 		FC7133802C76ECB400E53143 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
@@ -421,6 +443,8 @@
 		FCC2575E2B74D16900DA813A /* DiscussinListAvatarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussinListAvatarsView.swift; sourceTree = "<group>"; };
 		FCC257602B75333500DA813A /* CustomTabBarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarAnimation.swift; sourceTree = "<group>"; };
 		FCC257632B7535C400DA813A /*  StunningPodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " StunningPodcastView.swift"; sourceTree = "<group>"; };
+		FCC8C96F2CDE201F005F45AE /* BounceTextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceTextAnimation.swift; sourceTree = "<group>"; };
+		FCC8C9712CDE23DD005F45AE /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
 		FCC96EA02CB920630031B951 /* AnimationModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModifiers.swift; sourceTree = "<group>"; };
 		FCD1C8772CCA40F3006DA5B3 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		FCD1C8792CCA422C006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatAndValidateByPureSwiftUIView.swift; sourceTree = "<group>"; };
@@ -433,6 +457,8 @@
 		FCE3CFFD2B5CEF480012E071 /* FacebookReactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookReactions.swift; sourceTree = "<group>"; };
 		FCE3D0012B5D722A0012E071 /* ParallaxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCardView.swift; sourceTree = "<group>"; };
 		FCE6126C2CAEA27800EB071D /* DNAHelixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAHelixView.swift; sourceTree = "<group>"; };
+		FCF382B92CD50E5200A38E26 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		FCF382BB2CD51D6700A38E26 /* CustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomSheet.swift; sourceTree = "<group>"; };
 		FCF6EF8C2B8776C600CB1010 /* CircleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimerView.swift; sourceTree = "<group>"; };
 		FCF6EF922B8776E200CB1010 /* TimerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF6EF932B8776E200CB1010 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -676,6 +702,14 @@
 			path = TranslucentBackground;
 			sourceTree = "<group>";
 		};
+		FC3991A62CCF94B300033896 /* PlayStationLoader */ = {
+			isa = PBXGroup;
+			children = (
+				FC3991A72CCF94BD00033896 /* PlayStationLoaderView.swift */,
+			);
+			path = PlayStationLoader;
+			sourceTree = "<group>";
+		};
 		FC47A7252AA323FB00E3F150 /* MoneyManage */ = {
 			isa = PBXGroup;
 			children = (
@@ -711,6 +745,15 @@
 		FC47A73C2AA4FEB600E3F150 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				FCC8C96F2CDE201F005F45AE /* BounceTextAnimation.swift */,
+				FCC8C9712CDE23DD005F45AE /* LoadingIndicatorView.swift */,
+				FCF382BB2CD51D6700A38E26 /* CustomBottomSheet.swift */,
+				FCF382B92CD50E5200A38E26 /* MoodView.swift */,
+				FC3991AA2CCF99B100033896 /* ChipsView.swift */,
+				FC3991A62CCF94B300033896 /* PlayStationLoader */,
+				FC68B6352CCCABD400F13554 /* HeroAnimationView.swift */,
+				FC68B6332CCC12F600F13554 /* PreventScreenshot.swift */,
+				FC68B6282CCBA8C100F13554 /* Rain Particle Effect */,
 				FCD1C8822CCA4796006DA5B3 /* CurrencyTextField.swift */,
 				FCD1C8772CCA40F3006DA5B3 /* FloatingTextField.swift */,
 				FCD1C8792CCA422C006DA5B3 /* FormatAndValidateByPureSwiftUIView.swift */,
@@ -838,6 +881,18 @@
 				FC6452852B2592EC0008B6E5 /* HeartAnimationView.swift */,
 			);
 			path = HeartAnimation;
+			sourceTree = "<group>";
+		};
+		FC68B6282CCBA8C100F13554 /* Rain Particle Effect */ = {
+			isa = PBXGroup;
+			children = (
+				FC68B6312CCBFC8500F13554 /* RainLightningScene.swift */,
+				FC68B6292CCBA8C500F13554 /* RainParticleEffectView.swift */,
+				FC68B62B2CCBA8E800F13554 /* Assets.xcassets */,
+				FC68B62C2CCBA8E800F13554 /* Rain.sks */,
+				FC68B62F2CCBFC3D00F13554 /* Rain2.sks */,
+			);
+			path = "Rain Particle Effect";
 			sourceTree = "<group>";
 		};
 		FC7133842C76ECB400E53143 /* FluidGradient */ = {
@@ -1103,7 +1158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3842F42B81E3B300FB8870 /* Inter-SemiBold.ttf in Resources */,
+				FC68B62D2CCBA8E800F13554 /* Assets.xcassets in Resources */,
+				FC68B62E2CCBA8E800F13554 /* Rain.sks in Resources */,
 				325DA0B82921E773005F2E23 /* Preview Assets.xcassets in Resources */,
+				FC68B6302CCBFC3D00F13554 /* Rain2.sks in Resources */,
 				FC3842DF2B81E3A400FB8870 /* button.riv in Resources */,
 				FC3842DB2B81E3A400FB8870 /* confetti.riv in Resources */,
 				FC3842DA2B81E3A400FB8870 /* house.riv in Resources */,
@@ -1177,6 +1235,7 @@
 				EA9690D42974ED85008AA5E7 /* RippleAnimation.swift in Sources */,
 				FCC257642B7535C400DA813A /*  StunningPodcastView.swift in Sources */,
 				FC5078F72A4930CF00E1EE77 /* TransparentBlurView.swift in Sources */,
+				FC68B6342CCC12F800F13554 /* PreventScreenshot.swift in Sources */,
 				FC3842E52B81E3A400FB8870 /* SignInView.swift in Sources */,
 				FC0669502B5FD17800237F91 /* CustomToastView.swift in Sources */,
 				FCD1C87C2CCA4275006DA5B3 /* NewAPIFormatText.swift in Sources */,
@@ -1192,8 +1251,10 @@
 				FCC257572B74D13200DA813A /* TabSelectionView.swift in Sources */,
 				FC7133892C76ECB400E53143 /* ResizableLayer.swift in Sources */,
 				FC47A7302AA323FB00E3F150 /* TransactionsView.swift in Sources */,
+				FCC8C9722CDE23E2005F45AE /* LoadingIndicatorView.swift in Sources */,
 				FC848FB62B8A084300A8F0A2 /* CustomTextFieldView.swift in Sources */,
 				FCC2575B2B74D15200DA813A /* DiscussinListRowView.swift in Sources */,
+				FCF382BC2CD51D6D00A38E26 /* CustomBottomSheet.swift in Sources */,
 				FC47A7642AA4FEC900E3F150 /* NewYearAnim.swift in Sources */,
 				FCAA6A082B540B11004319D4 /* InfiniteCarouselView.swift in Sources */,
 				FC7133882C76ECB400E53143 /* FluidGradientView.swift in Sources */,
@@ -1214,6 +1275,7 @@
 				FC47A75B2AA4FEC900E3F150 /* Switch.swift in Sources */,
 				FC47A72D2AA323FB00E3F150 /* CardView.swift in Sources */,
 				EA9690EA297530D6008AA5E7 /* TypeChipList.swift in Sources */,
+				FC68B62A2CCBA8C900F13554 /* RainParticleEffectView.swift in Sources */,
 				FCFE184E2BDF904F00CE7402 /* CustomLimitedTextField.swift in Sources */,
 				FC7133872C76ECB400E53143 /* FluidGradient.swift in Sources */,
 				FC1BD8462B62B8AE006EAF40 /* AnimatedSFTabView.swift in Sources */,
@@ -1227,6 +1289,7 @@
 				FC03AF4829949C4B009A5D4E /* PokemonDetailView.swift in Sources */,
 				FCE6126D2CAEA27900EB071D /* DNAHelixView.swift in Sources */,
 				FC6452862B2592EC0008B6E5 /* HeartAnimationView.swift in Sources */,
+				FCC8C9702CDE2023005F45AE /* BounceTextAnimation.swift in Sources */,
 				FC3843112B81E78C00FB8870 /* MetaballsView.swift in Sources */,
 				FC38430F2B81E6D300FB8870 /* ButtonExperiments.swift in Sources */,
 				FC47A7572AA4FEC900E3F150 /* PopularView.swift in Sources */,
@@ -1242,6 +1305,7 @@
 				FCF6EFB12B8778BB00CB1010 /* LiveActivityManager.swift in Sources */,
 				FC8D0CC62BDF474700041EC9 /* CustomRangeSlider.swift in Sources */,
 				FC47A73B2AA4FD0900E3F150 /* Utils.swift in Sources */,
+				FC68B6362CCCABD900F13554 /* HeroAnimationView.swift in Sources */,
 				FC7133862C76ECB400E53143 /* CGPointExtension.swift in Sources */,
 				FCD1C87E2CCA4319006DA5B3 /* FormatAndValidateByIntrospectView.swift in Sources */,
 				FC3843022B81E48D00FB8870 /* Chart.swift in Sources */,
@@ -1254,6 +1318,7 @@
 				FCAA6A0C2B5447E4004319D4 /* StatusBarUpdateView.swift in Sources */,
 				FC2AADC02B72741C00586834 /* PasscodeView.swift in Sources */,
 				FCF6EF8D2B8776C600CB1010 /* CircleTimerView.swift in Sources */,
+				FC3991A82CCF94C500033896 /* PlayStationLoaderView.swift in Sources */,
 				FC9557D82C898C9A00CBF9F9 /* ColorExtension.swift in Sources */,
 				FC7B68012B6E89CF000EA816 /* ShimmerView.swift in Sources */,
 				FC71337E2C76EC5100E53143 /* SheetContentView.swift in Sources */,
@@ -1278,8 +1343,10 @@
 				FC3843072B81E48D00FB8870 /* TranslucentBackgroundContentView.swift in Sources */,
 				FC2B2D572CBD20DA0047E77C /* AnimatedText.swift in Sources */,
 				325DA0C12921E8CE005F2E23 /* CircularProgressBarProgressView.swift in Sources */,
+				FCF382BA2CD50E5600A38E26 /* MoodView.swift in Sources */,
 				FCAA6A0A2B5440B6004319D4 /* NumberTextAnimation.swift in Sources */,
 				FCB4428D2B41160E00BBA560 /* ParticleModel.swift in Sources */,
+				FC3991AB2CCF99B400033896 /* ChipsView.swift in Sources */,
 				EA9690D62974F17E008AA5E7 /* AWBreathAnimation.swift in Sources */,
 				FCC2574E2B73E3FF00DA813A /* ChatGPTLoginAnimationView.swift in Sources */,
 				FC7B680C2B6EA133000EA816 /* TabCategoryView.swift in Sources */,
@@ -1290,6 +1357,7 @@
 				FC71338D2C76ECD000E53143 /* PDFViewer.swift in Sources */,
 				FC3843132B81E81E00FB8870 /* GridMagnificationView.swift in Sources */,
 				FCC257512B74D11C00DA813A /* BookInfoView.swift in Sources */,
+				FC68B6322CCBFC8700F13554 /* RainLightningScene.swift in Sources */,
 				FC67E6BF2B7A0F7D00D494DE /* CoverFlowView.swift in Sources */,
 				FC03AF522994A0DB009A5D4E /* CustomMapView.swift in Sources */,
 				FC848FAC2B88A0A400A8F0A2 /* AnimatedExampleView.swift in Sources */,
@@ -1476,7 +1544,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1508,7 +1576,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
